@@ -6,6 +6,7 @@ Boot.prototype.preload = function () {
 
 Boot.prototype.create = function () {
   this.game.input.maxPointers = 1;
+  this.game.stage.backgroundColor = '#4488AA';
 
   if (this.game.device.desktop) {
     this.game.scale.pageAlignHorizontally = true;

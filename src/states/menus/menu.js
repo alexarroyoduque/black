@@ -12,7 +12,7 @@ Menu.prototype.create = function () {
 Menu.prototype.update = function () {};
 
 Menu.prototype.onInputDown = function () {
-  this.game.state.start('game');
+  this.game.state.start('level01');
 };
 
 module.exports = Menu;
