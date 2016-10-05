@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
+    <event eventtype="7" enumb="75">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,16 +25,22 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var gp_num = gamepad_get_device_count();
-for (var i = 0; i &lt; gp_num; i++;)
-   {
-   if gamepad_is_connected(i) global.gp[i] = true else global.gp[i] = false;
-   
-   show_debug_message(global.gp[i]);
-   }
-   
-   
-   show_debug_message('hola');
+            <string>show_debug_message("Event = " + async_load[? "event_type"]);        // Debug cocde so you can see which event has been
+show_debug_message("Pad = " + string(async_load[? "pad_index"]));   // triggered and the pad associated with it.
+
+
+switch(async_load[? "event_type"])             // Parse the async_load map to see which event has been triggered
+{
+case "gamepad discovered":                     // A game pad has been discovered
+    var padIndex = async_load[? "pad_index"];       // Get the pad index value from the async_load map
+    gamepad_set_axis_deadzone(padIndex, 0.5);       // Set the "deadzone" for the axis
+    show_debug_message(padIndex);
+    
+    black_obj.padIndex = padIndex;
+
+    break;
+
+}
 </string>
           </argument>
         </arguments>
