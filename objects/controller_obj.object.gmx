@@ -37,7 +37,7 @@ case "gamepad discovered":                     // A game pad has been discovered
     show_debug_message(padIndex);
     
     black_obj.padIndex = padIndex;
-
+    gamepad_set_vibration(padIndex, 0.1, 0.1);
     break;
 
 }

@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\black_spr</sprite>
+    <sprite>sprites\tiles_spr</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -17,6 +18,7 @@
     <object>objects\black_obj</object>
     <object>objects\controller_obj</object>
     <object>objects\warning_obj</object>
+    <object>objects\tiles_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level01</room>
