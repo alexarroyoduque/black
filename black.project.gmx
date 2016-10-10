@@ -13,11 +13,11 @@
   </sprites>
   <backgrounds name="background">
     <background>background\menu_main_bg</background>
-    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\gamepad_detection.gml</script>
+    <script>scripts\gamepad_vars.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\default_font</font>
