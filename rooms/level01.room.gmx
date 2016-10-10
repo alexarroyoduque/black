@@ -52,8 +52,6 @@
   </views>
   <instances>
     <instance objName="black_obj" x="96" y="64" name="inst_146FEB5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="controller_obj" x="32" y="32" name="inst_8141BDB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="warning_obj" x="64" y="32" name="inst_AB4D0D55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="64" y="128" name="inst_C039686E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="96" y="128" name="inst_8B1814A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="128" y="128" name="inst_B32E0C1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

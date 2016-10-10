@@ -8,25 +8,27 @@
   <sprites name="sprites">
     <sprite>sprites\black_spr</sprite>
     <sprite>sprites\tiles_spr</sprite>
-    <sprite>sprites\menu_main_spr</sprite>
     <sprite>sprites\button_dummy_spr</sprite>
+    <sprite>sprites\joystick_left_up_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\menu_main_bg</background>
     <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\gamepad_detection.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\default_font</font>
   </fonts>
   <objects name="objects">
     <object>objects\black_obj</object>
-    <object>objects\controller_obj</object>
     <object>objects\controller_menu_main_obj</object>
-    <object>objects\warning_obj</object>
     <object>objects\tiles_obj</object>
     <object>objects\play_button</object>
     <object>objects\exit_button</object>
+    <object>objects\joystick_left_up_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu_main</room>

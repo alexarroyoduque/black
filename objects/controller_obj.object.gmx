@@ -11,37 +11,41 @@
     <event eventtype="7" enumb="75">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>601</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>show_debug_message("Event = " + async_load[? "event_type"]);        // Debug cocde so you can see which event has been
-show_debug_message("Pad = " + string(async_load[? "pad_index"]));   // triggered and the pad associated with it.
-
-
-switch(async_load[? "event_type"])             // Parse the async_load map to see which event has been triggered
-{
-case "gamepad discovered":                     // A game pad has been discovered
-    var padIndex = async_load[? "pad_index"];       // Get the pad index value from the async_load map
-    gamepad_set_axis_deadzone(padIndex, 0.5);       // Set the "deadzone" for the axis
-    show_debug_message(padIndex);
-    
-    black_obj.padIndex = padIndex;
-    gamepad_set_vibration(padIndex, 0.1, 0.1);
-    break;
-
-}
-</string>
+            <kind>9</kind>
+            <script>gamepad_script</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
