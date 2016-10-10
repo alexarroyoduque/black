@@ -29,6 +29,7 @@
     <object>objects\play_button</object>
     <object>objects\exit_button</object>
     <object>objects\joystick_left_up_obj</object>
+    <object>objects\timer_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu_main</room>
