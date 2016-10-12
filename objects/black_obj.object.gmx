@@ -30,8 +30,8 @@
     var verticalMove = gamepad_axis_value(global.padIndex, gp_axislv);
     
     if ((horizontalMove != 0) || (verticalMove != 0)) {
-        x += h_move * 4;
-        y += v_move * 4;
+        x += horizontalMove * 4;
+        y += verticalMove * 4;
     }
 }
 </string>
