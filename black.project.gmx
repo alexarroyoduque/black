@@ -54,24 +54,34 @@
         <object>objects\exit_text</object>
       </objects>
       <objects name="tutorial">
+        <object>objects\controller_tutorial_obj</object>
         <object>objects\movement_text</object>
         <object>objects\cane_text</object>
         <object>objects\back_text</object>
         <object>objects\continue_text</object>
         <object>objects\cane2_text</object>
-        <object>objects\controller_tutorial_obj</object>
         <object>objects\joystick_left_up_fixed_obj</object>
         <object>objects\joystick_right_up_fixed</object>
         <object>objects\joystick_left_4_directions_obj</object>
       </objects>
       <object>objects\gamepad_obj</object>
     </objects>
+    <objects name="levels">
+      <objects name="level01">
+        <object>objects\level01_intro_text</object>
+        <object>objects\level01_temporal_text</object>
+        <object>objects\level01_intro_image</object>
+        <object>objects\level01_intro_controller_obj</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\intro</room>
     <room>rooms\menu_main</room>
     <room>rooms\tutorial</room>
+    <room>rooms\level01_intro</room>
     <room>rooms\level01</room>
+    <room>rooms\room4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
