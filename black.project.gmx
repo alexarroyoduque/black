@@ -98,8 +98,10 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\intro</room>
-    <room>rooms\menu_main</room>
-    <room>rooms\tutorial</room>
+    <rooms name="menus">
+      <room>rooms\menu_main</room>
+      <room>rooms\tutorial</room>
+    </rooms>
     <room>rooms\level01_intro</room>
     <room>rooms\level01</room>
   </rooms>

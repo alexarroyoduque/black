@@ -1,20 +1,6 @@
 # Black
 
-Soon...
-
-## Development
-
-### Install dependencies
-
-```sh
-$ npm install
-```
-
-### Run project
-
-```sh
-$ npm start
-```
+Project Black es un divertido videojuego arcade con el que un jugador experimentará los desafíos que presenta la vida de una persona invidente. Deberá bastarse de su sentido del oído y de su bastón (representado por el force feedback del gamepad) para percibir su entorno. El simple hecho de cruzar un paso de peatones se convertirá en una aventura tan épica como peligrosa
 
 
 ## Created by
@@ -24,6 +10,6 @@ $ npm start
 
 > Twitter: [@AlexArroyoDuque](https://twitter.com/AlexArroyoDuque)
 
-> Samuel Dorado
+> Samuel Dorado Rodríquez
 
 > Twitter: [@SamuelDoradoDev](https://twitter.com/SamuelDoradoDev)
