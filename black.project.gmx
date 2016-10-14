@@ -17,11 +17,17 @@
         <sprite>sprites\joystick_left_up_spr</sprite>
         <sprite>sprites\joystick_left_4_directions_spr</sprite>
         <sprite>sprites\joystick_left_up_fixed_spr</sprite>
+        <sprite>sprites\joystick_left_right_fixed</sprite>
       </sprites>
       <sprites name="right">
         <sprite>sprites\joystick_right_standby_spr</sprite>
         <sprite>sprites\joystick_right_up_fixed_spr</sprite>
+        <sprite>sprites\joystick_right_right_fixed</sprite>
+        <sprite>sprites\joystick_right_down_fixed</sprite>
       </sprites>
+    </sprites>
+    <sprites name="characters">
+      <sprite>sprites\mrs_yellow_spr</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -34,6 +40,9 @@
     <script>scripts\gamepad_detection.gml</script>
     <script>scripts\gamepad_vars.gml</script>
     <script>scripts\stop_vibration.gml</script>
+    <script>scripts\setPrimary_color.gml</script>
+    <script>scripts\setSecondary_color.gml</script>
+    <script>scripts\setYellow_color.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\default_font</font>
@@ -53,8 +62,6 @@
       <objects name="main">
         <object>objects\controller_menu_main_obj</object>
         <object>objects\title_text</object>
-        <object>objects\joystick_left_up_obj</object>
-        <object>objects\joystick_right_standby</object>
         <object>objects\play_text</object>
         <object>objects\exit_text</object>
       </objects>
@@ -65,19 +72,28 @@
         <object>objects\back_text</object>
         <object>objects\continue_text</object>
         <object>objects\cane2_text</object>
-        <object>objects\joystick_left_up_fixed_obj</object>
+      </objects>
+      <objects name="joysticks">
+        <object>objects\joystick_left_up_obj</object>
+        <object>objects\joystick_right_standby</object>
+        <object>objects\joystick_left_right_fixed_obj</object>
         <object>objects\joystick_right_up_fixed</object>
+        <object>objects\joystick_left_up_fixed_obj</object>
         <object>objects\joystick_left_4_directions_obj</object>
+        <object>objects\joystick_right_right_fixed_obj</object>
       </objects>
       <object>objects\gamepad_obj</object>
     </objects>
     <objects name="levels">
       <objects name="level01">
         <object>objects\level01_intro_text</object>
-        <object>objects\level01_temporal_text</object>
         <object>objects\level01_intro_image</object>
         <object>objects\level01_intro_controller_obj</object>
       </objects>
+    </objects>
+    <objects name="characters">
+      <object>objects\black_mother_text</object>
+      <object>objects\mrs_yellow_obj</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -86,7 +102,6 @@
     <room>rooms\tutorial</room>
     <room>rooms\level01_intro</room>
     <room>rooms\level01</room>
-    <room>rooms\room4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

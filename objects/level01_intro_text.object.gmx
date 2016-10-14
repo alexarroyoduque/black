@@ -49,7 +49,7 @@
           </argument>
           <argument>
             <kind>4</kind>
-            <string>1</string>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -72,8 +72,8 @@
             <string>draw_text_ext(
     x,y,
     'Black, ¿Puedes ir a comprar a la frutería del señor Green?'+
-    'Después pásate también por la casa de tu amiga Rose y les dejamos algo de fruta a los vecinos.',
-    30, 300);
+    ' Después pásate también por la casa de tu amiga Rose y les dejamos algo de fruta a los vecinos.',
+    39, 450);
 </string>
           </argument>
         </arguments>

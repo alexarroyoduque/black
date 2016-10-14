@@ -14,6 +14,7 @@
   </texgroups>
   <ranges>
     <range0>32,127</range0>
+    <range0>191,191</range0>
     <range0>193,193</range0>
     <range0>201,201</range0>
     <range0>205,205</range0>

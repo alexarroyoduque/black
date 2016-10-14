@@ -49,7 +49,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>setSecondary_color</script>
+            <script>setYellow_color</script>
           </argument>
           <argument>
             <kind>0</kind>
@@ -89,7 +89,7 @@
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>Salir</string>
+            <string>Madre de Black</string>
           </argument>
           <argument>
             <kind>0</kind>
