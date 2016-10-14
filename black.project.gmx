@@ -7,9 +7,11 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\black_spr</sprite>
+    <sprite>sprites\black_square_spr</sprite>
     <sprite>sprites\tiles_spr</sprite>
     <sprite>sprites\button_dummy_spr</sprite>
     <sprite>sprites\joystick_left_up_spr</sprite>
+    <sprite>sprites\cane_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\menu_main_bg</background>
@@ -18,6 +20,7 @@
   <scripts name="scripts">
     <script>scripts\gamepad_detection.gml</script>
     <script>scripts\gamepad_vars.gml</script>
+    <script>scripts\stop_vibration.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\default_font</font>
@@ -30,6 +33,8 @@
     <object>objects\exit_button</object>
     <object>objects\joystick_left_up_obj</object>
     <object>objects\timer_obj</object>
+    <object>objects\cane_obj</object>
+    <object>objects\vibration_controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu_main</room>

@@ -62,9 +62,6 @@
     <instance objName="tiles_obj" x="128" y="288" name="inst_901DC710" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="128" y="320" name="inst_08979AB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="128" y="352" name="inst_FA7BF328" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tiles_obj" x="128" y="384" name="inst_42F94DE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tiles_obj" x="128" y="416" name="inst_FEEF0FA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tiles_obj" x="128" y="448" name="inst_227DA860" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="160" y="448" name="inst_78EB562C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="192" y="448" name="inst_640417B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="224" y="448" name="inst_8EE8FEEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -91,6 +88,10 @@
     <instance objName="tiles_obj" x="448" y="288" name="inst_A6889CCE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="448" y="448" name="inst_F6A33B41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="timer_obj" x="0" y="0" name="inst_10690F75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tiles_obj" x="128" y="384" name="inst_5FBA126C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tiles_obj" x="128" y="416" name="inst_083C995D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tiles_obj" x="128" y="448" name="inst_A7743539" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="vibration_controller" x="0" y="0" name="inst_D6B42F7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
