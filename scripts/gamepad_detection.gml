@@ -1,4 +1,5 @@
-show_debug_message("Event = " + async_load[? "event_type"]);        // Debug cocde so you can see which event has been
+show_debug_message('Event = ' + async_load[? 'event_type']);        // Debug cocde so you can see which event has been
+
 show_debug_message("Pad = " + string(async_load[? "pad_index"]));   // triggered and the pad associated with it.
 
 
