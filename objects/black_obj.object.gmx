@@ -25,6 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>player_speed = 4;
+            </string>
             <string>gamepadAvailable</string>
           </argument>
           <argument>
