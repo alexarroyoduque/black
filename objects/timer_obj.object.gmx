@@ -63,7 +63,7 @@ if ( global.miliseconds &lt; 1000 ) &amp;&amp; ( global.miliseconds &gt; 950)
     global.seconds += 1;
 }
 
-if ( global.seconds &lt; 60 ) &amp;&amp; ( global.seconds &gt; 59.9 )
+if ( global.seconds &lt;= 60 ) &amp;&amp; ( global.seconds &gt; 59 )
 {
     global.seconds = 0;
     global.minutes += 1;
