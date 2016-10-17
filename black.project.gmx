@@ -29,6 +29,12 @@
     <sprites name="characters">
       <sprite>sprites\mrs_yellow_spr</sprite>
     </sprites>
+    <sprites name="UI">
+      <sprite>sprites\progress_bar_border_spr</sprite>
+      <sprite>sprites\progress_bar_bg_spr</sprite>
+      <sprite>sprites\progress_bar_fill_spr</sprite>
+    </sprites>
+    <sprite>sprites\checkpoint_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\menu_main_bg</background>
@@ -55,6 +61,8 @@
     <object>objects\timer_obj</object>
     <object>objects\cane_obj</object>
     <object>objects\vibration_controller</object>
+    <object>objects\level_progress_controller</object>
+    <object>objects\checkpoint_obj</object>
     <objects name="menus">
       <objects name="intro">
         <object>objects\intro_obj</object>
@@ -104,6 +112,7 @@
     </rooms>
     <room>rooms\level01_intro</room>
     <room>rooms\level01</room>
+    <room>rooms\room4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
