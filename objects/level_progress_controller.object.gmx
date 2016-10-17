@@ -79,10 +79,11 @@ alarm[0] = room_speed;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(progress_bar_bg_spr,1,view_xview[0]+229,view_yview[0]+500);
-            draw_sprite_ext(progress_bar_fill_spr,1,view_xview[0]+229,view_yview[0]+500,global.progress/100,1,0,c_white,1)
-            draw_sprite(progress_bar_border_spr,1,view_xview[0]+225,view_yview[0]+465);
-            </string>
+            <string>draw_sprite(progress_bar_bg_spr,1,view_xview[0]+229,view_yview[0]+650);
+            draw_sprite_ext(progress_bar_fill_spr,1,view_xview[0]+229,view_yview[0]+650,global.progress/100,1,0,c_white,1)
+            draw_sprite(progress_bar_border_spr,1,view_xview[0]+225,view_yview[0]+615);
+            
+</string>
           </argument>
         </arguments>
       </action>

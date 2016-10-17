@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-10000</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -138,19 +138,19 @@ if ( global.seconds &lt;= 60 ) &amp;&amp; ( global.seconds &gt; 59 )
 
 if (global.seconds &lt; 10) &amp;&amp; (global.minutes &lt; 10)
 {
-    draw_text(20,30, "0" + string(global.minutes)+" : 0"+string(global.seconds)+" : "+string(global.miliseconds));
+    draw_text(view_xview[0]+20,view_yview[0]+30, "0" + string(global.minutes)+" : 0"+string(global.seconds)+" : "+string(global.miliseconds));
 }
 else if (global.seconds &lt; 10) &amp;&amp; (global.minutes &gt;= 10)
 {
-    draw_text(20,30, string(global.minutes)+" : 0"+string(global.seconds)+" : "+string(global.miliseconds));
+    draw_text(view_xview[0]+20,view_yview[0]+30, string(global.minutes)+" : 0"+string(global.seconds)+" : "+string(global.miliseconds));
 }
 else if (global.seconds &gt;= 10) &amp;&amp; (global.minutes &lt; 10)
 {
-    draw_text(20,30, "0" + string(global.minutes)+" : "+string(global.seconds)+" : "+string(global.miliseconds));
+    draw_text(view_xview[0]+20,view_yview[0]+30, "0" + string(global.minutes)+" : "+string(global.seconds)+" : "+string(global.miliseconds));
 }
 else
 {
-    draw_text(20,30, string(global.minutes)+" : "+string(global.seconds)+" : "+string(global.miliseconds));
+    draw_text(view_xview[0]+20,view_yview[0]+30, string(global.minutes)+" : "+string(global.seconds)+" : "+string(global.miliseconds));
 }
 </string>
           </argument>
