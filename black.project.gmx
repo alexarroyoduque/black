@@ -37,7 +37,6 @@
     <sprite>sprites\checkpoint_spr</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\menu_main_bg</background>
     <background>background\circles_bg</background>
     <background>background\intro_bg</background>
   </backgrounds>
@@ -112,7 +111,6 @@
     </rooms>
     <room>rooms\level01_intro</room>
     <room>rooms\level01</room>
-    <room>rooms\room4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
