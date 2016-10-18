@@ -72,7 +72,7 @@
             <string>draw_text_ext(
     x,y,
     'Hijo, ¿Puedes ayudarme?'+
-    ' Necesito que vayas a la frutería. Quedé con el señor Green en que me apartaría unas ricas fresas. Al volver pásate por la casa de tu amiga Rose y les dejamos algunas fresas también a los vecinos.',
+    ' Necesito que vayas a la frutería. Quedé con el señor Green en que me apartaría unas ricas fresas. Al volver pásate por la casa de tu amiga Rose y les dejamos algunas fresas a los vecinos.',
     40, 500);
 </string>
           </argument>

@@ -59,6 +59,50 @@
       </action>
       <action>
         <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>invulnerable</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>false</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>721</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_health</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>3</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>301</id>
         <kind>0</kind>
         <userelative>-1</userelative>
@@ -73,11 +117,37 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>room_speed*2</string>
+            <string>room_speed*1</string>
           </argument>
           <argument>
             <kind>4</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>invulnerable</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>false</string>
           </argument>
         </arguments>
       </action>
@@ -161,11 +231,11 @@
             <kind>1</kind>
             <string>//movement left pad
 if (global.padIndex != -1) {
-var xDirection,yDirection;
-xDirection = gamepad_axis_value(global.padIndex, gp_axislh);
-yDirection = gamepad_axis_value(global.padIndex, gp_axislv);
-hspeed = xDirection * player_speed;
-vspeed = yDirection * player_speed;
+    var xDirection,yDirection;
+    xDirection = gamepad_axis_value(global.padIndex, gp_axislh);
+    yDirection = gamepad_axis_value(global.padIndex, gp_axislv);
+    hspeed = xDirection * player_speed;
+    vspeed = yDirection * player_speed;
 }
 </string>
           </argument>
@@ -287,11 +357,90 @@ if !place_free(x+hspeed, y+vspeed)
     }
 }*/
 
-if (place_meeting(x+hspeed,y,tiles_obj)) hspeed=0;
-if (place_meeting(x,y+vspeed,tiles_obj)) vspeed=0;
+if (place_meeting(x+hspeed,y,tiles_obj)) {
+    hspeed=0;
+    if (!invulnerable) {
+        invulnerable = true;
+        health--;
+        alarm[1] = room_speed*2;
+        hearts_obj.image_index = health;
+    }
+}
+
+if (place_meeting(x,y+vspeed,tiles_obj)) {
+    vspeed=0;
+    if (!invulnerable) {
+        invulnerable = true;
+        health--;
+        alarm[1] = room_speed*2;
+        hearts_obj.image_index = health;
+    }
+}
 </string>
           </argument>
         </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>408</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>health&lt;1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>223</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_current_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
       <action>
         <libid>1</libid>

@@ -9,7 +9,7 @@
     <sprite>sprites\black_spr</sprite>
     <sprite>sprites\black_square_spr</sprite>
     <sprite>sprites\tiles_spr</sprite>
-    <sprite>sprites\button_dummy_spr</sprite>
+    <sprite>sprites\flag_spr</sprite>
     <sprite>sprites\cane_spr</sprite>
     <sprite>sprites\gamepad_spr</sprite>
     <sprites name="joysticks">
@@ -33,6 +33,7 @@
       <sprite>sprites\progress_bar_border_spr</sprite>
       <sprite>sprites\progress_bar_bg_spr</sprite>
       <sprite>sprites\progress_bar_fill_spr</sprite>
+      <sprite>sprites\hearts</sprite>
     </sprites>
     <sprite>sprites\checkpoint_spr</sprite>
   </sprites>
@@ -57,11 +58,10 @@
   <objects name="objects">
     <object>objects\black_obj</object>
     <object>objects\tiles_obj</object>
-    <object>objects\timer_obj</object>
     <object>objects\cane_obj</object>
     <object>objects\vibration_controller</object>
-    <object>objects\level_progress_controller</object>
     <object>objects\checkpoint_obj</object>
+    <object>objects\flag_obj</object>
     <objects name="menus">
       <objects name="intro">
         <object>objects\intro_obj</object>
@@ -101,6 +101,11 @@
     <objects name="characters">
       <object>objects\black_mother_text</object>
       <object>objects\mrs_yellow_obj</object>
+    </objects>
+    <objects name="UI">
+      <object>objects\level_progress_controller</object>
+      <object>objects\timer_obj</object>
+      <object>objects\hearts_obj</object>
     </objects>
   </objects>
   <rooms name="rooms">
