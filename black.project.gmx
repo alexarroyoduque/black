@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\main_theme_sound</sound>
+    <sound>sound\ouch_sound</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\black_spr</sprite>
     <sprite>sprites\black_square_spr</sprite>
@@ -97,6 +100,7 @@
         <object>objects\level01_intro_image</object>
         <object>objects\level01_intro_controller_obj</object>
       </objects>
+      <object>objects\level_manager_obj</object>
     </objects>
     <objects name="characters">
       <object>objects\black_mother_text</object>
@@ -110,10 +114,8 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\intro</room>
-    <rooms name="menus">
-      <room>rooms\menu_main</room>
-      <room>rooms\tutorial</room>
-    </rooms>
+    <room>rooms\menu_main</room>
+    <room>rooms\tutorial</room>
     <room>rooms\level01_intro</room>
     <room>rooms\level01</room>
   </rooms>
