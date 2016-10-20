@@ -26,15 +26,24 @@
           <argument>
             <kind>1</kind>
             <string>global.progress = 0;
-            global.progress_checkpoints = ds_list_create();
-            number_of_checkpoints = instance_number(checkpoint_obj);
-            global.progression_per_checkpoint = 100/number_of_checkpoints;
-            </string>
+global.distanceToFlag = 0;
+global.initialDistanceToFlag = 0;
+global.progress_checkpoints = ds_list_create();
+number_of_checkpoints = instance_number(checkpoint_obj);
+global.progression_per_checkpoint = 100/number_of_checkpoints;
+
+
+with(black_obj)
+{
+    global.initialDistanceToFlag = distance_to_object(flag_obj)
+}
+            
+</string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="2" enumb="0">
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -51,12 +60,21 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>progress += 10;
-if(progress &lt; 100)
+            <string>with(black_obj)
 {
-alarm[0] = room_speed;
+    global.distanceToFlag = distance_to_object(flag_obj)
 }
 
+calculateProgress = 1-(global.distanceToFlag/global.initialDistanceToFlag);
+
+
+if(calculateProgress &lt; 0)
+{
+    global.progress = 0;
+}
+else{
+    global.progress = calculateProgress;
+}
 </string>
           </argument>
         </arguments>
@@ -80,7 +98,7 @@ alarm[0] = room_speed;
           <argument>
             <kind>1</kind>
             <string>draw_sprite(progress_bar_bg_spr,1,view_xview[0]+229,view_yview[0]+650);
-            draw_sprite_ext(progress_bar_fill_spr,1,view_xview[0]+229,view_yview[0]+650,global.progress/100,1,0,c_white,1)
+            draw_sprite_ext(progress_bar_fill_spr,1,view_xview[0]+229,view_yview[0]+650,global.progress,1,0,c_white,1)
             draw_sprite(progress_bar_border_spr,1,view_xview[0]+225,view_yview[0]+615);
             
 </string>
