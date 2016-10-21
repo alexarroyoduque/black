@@ -103,7 +103,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>dark_layer_obj</object>
+            <object>layer_dark_obj</object>
           </argument>
           <argument>
             <kind>0</kind>

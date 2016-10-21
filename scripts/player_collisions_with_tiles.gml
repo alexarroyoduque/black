@@ -9,7 +9,7 @@ if (place_meeting(x+hspeed,y,tiles_obj)) {
         alarm[1] = room_speed*2;
         hearts_obj.image_index = health;
     }
-    
+    instance_create(0, 0, layer_blood_obj);
 }
 
 if (place_meeting(x,y+vspeed,tiles_obj)) {
@@ -22,4 +22,5 @@ if (place_meeting(x,y+vspeed,tiles_obj)) {
         alarm[1] = room_speed*2;
         hearts_obj.image_index = health;
     }
+    instance_create(0, 0, layer_blood_obj);
 }

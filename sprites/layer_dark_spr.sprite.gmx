@@ -20,6 +20,6 @@
   <width>1280</width>
   <height>720</height>
   <frames>
-    <frame index="0">images\dark_layer_spr_0.png</frame>
+    <frame index="0">images\layer_dark_spr_0.png</frame>
   </frames>
 </sprite>
