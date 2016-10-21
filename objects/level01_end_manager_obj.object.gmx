@@ -59,19 +59,19 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>mrs_yellow_spr</string>
+            <string>mr_green_spr</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Sra. Yellow'</string>
+            <string>'Sr. Green'</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Hijo, ¿Puedes ayudarme? Necesito que vayas a la frutería. Quedé con el señor Green en que me apartaría unas ricas fresas. Al volver pásate por la casa de tu amiga Rose y les dejamos algunas fresas a los vecinos.'</string>
+            <string>'¡Hola Black! Aquí tengo las fresas que encargó tu madre ¡Espero que las disfrutéis!'</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>setYellow_color</string>
+            <string>setGreen_color</string>
           </argument>
           <argument>
             <kind>0</kind>

@@ -135,7 +135,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>level_intro_gamepad_manager</script>
+            <script>level_transition_gamepad_manager</script>
           </argument>
           <argument>
             <kind>0</kind>

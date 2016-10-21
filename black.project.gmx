@@ -30,6 +30,7 @@
     </sprites>
     <sprites name="characters">
       <sprite>sprites\mrs_yellow_spr</sprite>
+      <sprite>sprites\mr_green_spr</sprite>
     </sprites>
     <sprites name="UI">
       <sprite>sprites\progress_bar_border_spr</sprite>
@@ -49,6 +50,7 @@
       <script>scripts\setSecondary_color.gml</script>
       <script>scripts\setLightGray_color.gml</script>
       <script>scripts\setYellow_color.gml</script>
+      <script>scripts\setGreen_color.gml</script>
     </scripts>
     <scripts name="timer">
       <script>scripts\timer_setup.gml</script>
@@ -68,8 +70,8 @@
     <script>scripts\cane_vibration_gamepad.gml</script>
     <script>scripts\vibration_setup.gml</script>
     <script>scripts\vibration_gamepad_stop.gml</script>
-    <script>scripts\level_intro_gamepad_manager.gml</script>
-    <script>scripts\level_intro_draw.gml</script>
+    <script>scripts\level_transition_gamepad_manager.gml</script>
+    <script>scripts\level_transition_draw.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\default_font</font>
@@ -117,6 +119,7 @@
       <object>objects\level_transition_gamepad_manager_obj</object>
       <object>objects\level_manager_obj</object>
       <object>objects\level01_intro_manager_obj</object>
+      <object>objects\level01_end_manager_obj</object>
     </objects>
     <objects name="UI">
       <object>objects\level_progress_obj</object>
@@ -131,6 +134,7 @@
     <room>rooms\tutorial</room>
     <room>rooms\level01_intro</room>
     <room>rooms\level01</room>
+    <room>rooms\level01_end</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

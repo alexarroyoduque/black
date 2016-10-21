@@ -1,21 +1,22 @@
 var image = argument0;
 var imageTitle = argument1;
 var description = argument2;
+var colorScript = argument3;
 
-var imageX = 100;
-var imageY = 130;
+var imageX = 250;
+var imageY = 370;
 
 var descriptionX = 500;
-var descriptionY = 200;
+var descriptionY = 220;
 
 draw_sprite(image, 0, imageX, imageY);
 
 draw_set_font(menu_font);
 
-script_execute(setYellow_color);
+script_execute(colorScript);
 
 draw_set_halign(fa_center);
-draw_text(imageX + 190, imageY + 450, imageTitle);
+draw_text(imageX, imageY + 240, imageTitle);
 
 script_execute(setLightGray_color);
 draw_set_halign(fa_left);
