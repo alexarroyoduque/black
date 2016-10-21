@@ -11,26 +11,41 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>601</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>global.miliseconds = 0;
-global.seconds = 0;
-global.minutes = 0;
-
-global.count_up = true;
-</string>
+            <kind>9</kind>
+            <script>timer_setup</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -38,37 +53,41 @@ global.count_up = true;
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>601</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>if (global.count_up == true)
-{
-    global.miliseconds += 1/room_speed*1000;   
-}
-
-if ( global.miliseconds &lt; 1000 ) &amp;&amp; ( global.miliseconds &gt; 950)
-{
-    global.miliseconds = 0;
-    global.seconds += 1;
-}
-
-if ( global.seconds &lt;= 60 ) &amp;&amp; ( global.seconds &gt; 59 )
-{
-    global.seconds = 0;
-    global.minutes += 1;
-}
-</string>
+            <kind>9</kind>
+            <script>timer_manager</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -120,39 +139,41 @@ if ( global.seconds &lt;= 60 ) &amp;&amp; ( global.seconds &gt; 59 )
       </action>
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>601</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>
-
-if (global.seconds &lt; 10) &amp;&amp; (global.minutes &lt; 10)
-{
-    draw_text(view_xview[0]+20,view_yview[0]+30, "0" + string(global.minutes)+" : 0"+string(global.seconds)+" : "+string(global.miliseconds));
-}
-else if (global.seconds &lt; 10) &amp;&amp; (global.minutes &gt;= 10)
-{
-    draw_text(view_xview[0]+20,view_yview[0]+30, string(global.minutes)+" : 0"+string(global.seconds)+" : "+string(global.miliseconds));
-}
-else if (global.seconds &gt;= 10) &amp;&amp; (global.minutes &lt; 10)
-{
-    draw_text(view_xview[0]+20,view_yview[0]+30, "0" + string(global.minutes)+" : "+string(global.seconds)+" : "+string(global.miliseconds));
-}
-else
-{
-    draw_text(view_xview[0]+20,view_yview[0]+30, string(global.minutes)+" : "+string(global.seconds)+" : "+string(global.miliseconds));
-}
-</string>
+            <kind>9</kind>
+            <script>timer_draw</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>

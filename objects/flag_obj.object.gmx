@@ -11,13 +11,13 @@
     <event eventtype="4" ename="black_obj">
       <action>
         <libid>1</libid>
-        <id>223</id>
+        <id>222</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_current_room</functionname>
+        <functionname>action_next_room</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>

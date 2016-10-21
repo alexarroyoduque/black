@@ -46,12 +46,29 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <scripts name="font-colors">
+      <script>scripts\setSecondary_color.gml</script>
+      <script>scripts\setPrimary_color.gml</script>
+      <script>scripts\setYellow_color.gml</script>
+    </scripts>
+    <script>scripts\gamepad_setup.gml</script>
     <script>scripts\gamepad_detection.gml</script>
-    <script>scripts\gamepad_vars.gml</script>
-    <script>scripts\stop_vibration.gml</script>
-    <script>scripts\setPrimary_color.gml</script>
-    <script>scripts\setSecondary_color.gml</script>
-    <script>scripts\setYellow_color.gml</script>
+    <script>scripts\gamepad_player_movement.gml</script>
+    <script>scripts\gamepad_player_cane_mechanics.gml</script>
+    <script>scripts\collisions_player_with_tiles.gml</script>
+    <script>scripts\gamepad_vibrations_setup.gml</script>
+    <script>scripts\gamepad_cane_vibration.gml</script>
+    <script>scripts\gamepad_stop_vibration.gml</script>
+    <scripts name="level-progress">
+      <script>scripts\level_progress_setup.gml</script>
+      <script>scripts\level_progress_manager.gml</script>
+      <script>scripts\level_progress_draw.gml</script>
+    </scripts>
+    <scripts name="timer">
+      <script>scripts\timer_setup.gml</script>
+      <script>scripts\timer_manager.gml</script>
+      <script>scripts\timer_draw.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\default_font</font>
@@ -62,8 +79,7 @@
     <object>objects\black_obj</object>
     <object>objects\tiles_obj</object>
     <object>objects\cane_obj</object>
-    <object>objects\vibration_controller</object>
-    <object>objects\checkpoint_obj</object>
+    <object>objects\vibration_manager</object>
     <object>objects\flag_obj</object>
     <objects name="menus">
       <objects name="intro">
@@ -107,7 +123,7 @@
       <object>objects\mrs_yellow_obj</object>
     </objects>
     <objects name="UI">
-      <object>objects\level_progress_controller</object>
+      <object>objects\level_progress_obj</object>
       <object>objects\timer_obj</object>
       <object>objects\hearts_obj</object>
     </objects>

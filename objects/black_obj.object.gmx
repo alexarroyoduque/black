@@ -215,173 +215,121 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>601</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>//movement left pad
-if (global.padIndex != -1) {
-    var xDirection,yDirection;
-    xDirection = gamepad_axis_value(global.padIndex, gp_axislh);
-    yDirection = gamepad_axis_value(global.padIndex, gp_axislv);
-    hspeed = xDirection * player_speed;
-    vspeed = yDirection * player_speed;
-}
-</string>
+            <kind>9</kind>
+            <script>gamepad_player_movement</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>601</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>//cane mechanics
-if (global.padIndex != -1)
-{
-    //takes directions from the right pad
-    var h_point = gamepad_axis_value(global.padIndex, gp_axisrh);
-    var v_point = gamepad_axis_value(global.padIndex, gp_axisrv);
-    var pdir = point_direction(0, 0, h_point, v_point);
-    var dif = angle_difference(pdir, image_angle);
-    //rotates the player image
-     if ( ((h_point != 0) || (v_point != 0)))
-     {
-        
-        //if cane doesn't exists, creates the obj pointing to the player direction
-        if !instance_exists(cane_obj)
-        {
-           
-            with (instance_create(x, y, cane_obj))
-            {
-                speed = 0;
-                image_angle = dif;
-                direction = image_angle;
-            }
-        }
-        //if it exists moves the cane
-        else
-        {
-            with(cane_obj)
-            {
-                x = other.x + lengthdir_x(14, pdir);
-                y = other.y + lengthdir_y(14, pdir);
-                image_angle = dif;
-            }
-        }
-     }
-
-    
-    //if both axis are equal to 0 the cane its removed
-   if ( ((h_point == 0) &amp;&amp; (v_point == 0)))
-    {
-        if instance_exists(cane_obj)
-        {
-
-          with (cane_obj)
-          {
-            instance_destroy();
-          }  
-        }
-    }
-}
-</string>
+            <kind>9</kind>
+            <script>gamepad_player_cane_mechanics</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>601</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>//collisions
-/*if hspeed != 0
-if !place_free(x+hspeed, y)
-{
-    if hspeed &gt; 0 move_contact_solid(0, hspeed)
-    if hspeed &lt;0 move_contact_solid(180, -hspeed)
-    {
-        hspeed = 0;
-        if (global.padIndex != -1)
-        {
-            gamepad_set_vibration(global.padIndex, 1, 1);
-            global.black_vibrating = true
-        } 
-    }
-}
-
-if vspeed != 0
-if !place_free(x+hspeed, y+vspeed)
-{
-    if vspeed &gt; 0 move_contact_solid(270, vspeed)
-    if vspeed &lt; 0 move_contact_solid(90, -vspeed)
-    {
-        vspeed = 0;
-        if (global.padIndex != -1)
-        {
-            gamepad_set_vibration(global.padIndex, 1, 1);
-            global.black_vibrating = true
-        } 
-    }
-}*/
-
-if (place_meeting(x+hspeed,y,tiles_obj)) {
-    hspeed=0;
-    if (!invulnerable) {
-        audio_sound_gain(ouch_sound, 0.2, 1);
-        audio_play_sound(ouch_sound, 0, false);
-        invulnerable = true;
-        health--;
-        alarm[1] = room_speed*2;
-        hearts_obj.image_index = health;
-    }
-    
-}
-
-if (place_meeting(x,y+vspeed,tiles_obj)) {
-    vspeed=0;
-    if (!invulnerable) {
-        audio_sound_gain(ouch_sound, 1, 1);
-        audio_play_sound(ouch_sound, 0, false);
-        invulnerable = true;
-        health--;
-        alarm[1] = room_speed*2;
-        hearts_obj.image_index = health;
-    }
-}
-</string>
+            <kind>9</kind>
+            <script>collisions_player_with_tiles</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
