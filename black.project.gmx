@@ -9,6 +9,7 @@
     <sound>sound\ouch_sound</sound>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\dark_layer_spr</sprite>
     <sprite>sprites\black_spr</sprite>
     <sprite>sprites\tiles_spr</sprite>
     <sprite>sprites\flag_spr</sprite>
@@ -118,6 +119,7 @@
       <object>objects\vibration_manager</object>
       <object>objects\level_transition_gamepad_manager_obj</object>
       <object>objects\level_manager_obj</object>
+      <object>objects\dark_layer_obj</object>
       <object>objects\level01_intro_manager_obj</object>
       <object>objects\level01_end_manager_obj</object>
     </objects>
