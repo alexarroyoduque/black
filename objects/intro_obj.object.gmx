@@ -65,7 +65,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>room_speed*3</string>
+            <string>room_speed*1</string>
           </argument>
           <argument>
             <kind>4</kind>
