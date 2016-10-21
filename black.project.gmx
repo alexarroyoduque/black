@@ -120,8 +120,6 @@
       <object>objects\vibration_manager</object>
       <object>objects\level_transition_gamepad_manager_obj</object>
       <object>objects\level_manager_obj</object>
-      <object>objects\layer_dark_obj</object>
-      <object>objects\layer_blood_obj</object>
       <object>objects\level01_intro_manager_obj</object>
       <object>objects\level01_end_manager_obj</object>
     </objects>
@@ -129,6 +127,8 @@
       <object>objects\level_progress_obj</object>
       <object>objects\timer_obj</object>
       <object>objects\hearts_obj</object>
+      <object>objects\layer_dark_obj</object>
+      <object>objects\layer_blood_obj</object>
       <object>objects\restart_level_obj</object>
     </objects>
   </objects>

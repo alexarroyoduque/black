@@ -73,7 +73,7 @@ var yPosition = view_yview[0]
 depth = -999;
 
 draw_sprite(layer_blood_spr, 0, xPosition, yPosition);
-image_alpha = 0.1;
+
 
 </string>
           </argument>
