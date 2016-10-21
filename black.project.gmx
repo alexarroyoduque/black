@@ -10,7 +10,6 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\black_spr</sprite>
-    <sprite>sprites\black_square_spr</sprite>
     <sprite>sprites\tiles_spr</sprite>
     <sprite>sprites\flag_spr</sprite>
     <sprite>sprites\cane_spr</sprite>
@@ -82,7 +81,6 @@
     <object>objects\black_obj</object>
     <object>objects\tiles_obj</object>
     <object>objects\cane_obj</object>
-    <object>objects\vibration_manager</object>
     <object>objects\flag_obj</object>
     <objects name="menus">
       <objects name="intro">
@@ -115,13 +113,10 @@
       <object>objects\gamepad_obj</object>
     </objects>
     <objects name="levels">
-      <object>objects\level_intro_gamepad_manager_obj</object>
+      <object>objects\vibration_manager</object>
+      <object>objects\level_transition_gamepad_manager_obj</object>
       <object>objects\level_manager_obj</object>
       <object>objects\level01_intro_manager_obj</object>
-    </objects>
-    <objects name="characters">
-      <object>objects\black_mother_text</object>
-      <object>objects\mrs_yellow_obj</object>
     </objects>
     <objects name="UI">
       <object>objects\level_progress_obj</object>
