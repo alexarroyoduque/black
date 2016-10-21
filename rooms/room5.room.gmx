@@ -8,7 +8,7 @@
   <isometric>0</isometric>
   <speed>20</speed>
   <persistent>0</persistent>
-  <colour>12632256</colour>
+  <colour>2236962</colour>
   <showcolour>-1</showcolour>
   <code></code>
   <enableViews>0</enableViews>
@@ -51,22 +51,14 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="gamepad_obj" x="640" y="400" name="inst_4BBA3680" locked="0" code="" scaleX="1.10000002384186" scaleY="1.10000002384186" colour="4294967295" rotation="0"/>
-    <instance objName="joystick_right_standby" x="832" y="384" name="inst_1767C603" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="gamepad_obj" x="192" y="128" name="inst_12C73756" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="cane2_text" x="640" y="512" name="inst_2684D49C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="movement_text" x="448" y="256" name="inst_32B1242A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cane_text" x="832" y="256" name="inst_0FF120CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="joystick_left_up_fixed_obj" x="128" y="128" name="inst_8237C0D4" locked="0" code="" scaleX="0.300000011920929" scaleY="-0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="joystick_right_up_fixed" x="256" y="128" name="inst_14D5AE9F" locked="0" code="" scaleX="0.300000011920929" scaleY="-0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="gamepad_obj" x="1088" y="128" name="inst_8B08D888" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="joystick_right_up_fixed" x="1152" y="128" name="inst_C3AC617D" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="joystick_left_up_fixed_obj" x="1024" y="128" name="inst_3DC2ECC6" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="continue_text" x="1088" y="32" name="inst_37058FC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="back_text" x="192" y="32" name="inst_854FD14C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="joystick_left_4_directions_obj" x="448" y="384" name="inst_0080958E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="controller_tutorial_obj" x="16" y="16" name="inst_8F026C3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="target_tutorial_text" x="640" y="96" name="inst_A400D8EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="level_intro_controller_obj" x="0" y="0" name="inst_8F8D3EF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="level01_intro_text" x="512" y="256" name="inst_6B22956F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="mrs_yellow_obj" x="96" y="128" name="inst_DA437B94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="black_mother_text" x="288" y="608" name="inst_9FE7BBA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="joystick_left_up_fixed_obj" x="1024" y="128" name="inst_CE73B3A2" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="joystick_right_up_fixed" x="1152" y="128" name="inst_04AC3976" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -46,18 +46,19 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="font-colors">
-      <script>scripts\setSecondary_color.gml</script>
       <script>scripts\setPrimary_color.gml</script>
+      <script>scripts\setSecondary_color.gml</script>
+      <script>scripts\setLightGray_color.gml</script>
       <script>scripts\setYellow_color.gml</script>
     </scripts>
     <script>scripts\gamepad_setup.gml</script>
     <script>scripts\gamepad_detection.gml</script>
-    <script>scripts\gamepad_player_movement.gml</script>
-    <script>scripts\gamepad_player_cane_mechanics.gml</script>
-    <script>scripts\collisions_player_with_tiles.gml</script>
-    <script>scripts\gamepad_vibrations_setup.gml</script>
-    <script>scripts\gamepad_cane_vibration.gml</script>
-    <script>scripts\gamepad_stop_vibration.gml</script>
+    <script>scripts\player_gamepad_movement.gml</script>
+    <script>scripts\player_gamepad_cane_mechanics.gml</script>
+    <script>scripts\player_collisions_with_tiles.gml</script>
+    <script>scripts\cane_vibration_gamepad.gml</script>
+    <script>scripts\vibration_setup.gml</script>
+    <script>scripts\vibration_gamepad_stop.gml</script>
     <scripts name="level-progress">
       <script>scripts\level_progress_setup.gml</script>
       <script>scripts\level_progress_manager.gml</script>
@@ -68,6 +69,8 @@
       <script>scripts\timer_manager.gml</script>
       <script>scripts\timer_draw.gml</script>
     </scripts>
+    <script>scripts\level_intro_gamepad_manager.gml</script>
+    <script>scripts\level_intro_draw.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\default_font</font>
@@ -86,7 +89,7 @@
         <object>objects\intro_obj</object>
       </objects>
       <objects name="main">
-        <object>objects\controller_menu_main_obj</object>
+        <object>objects\menu_main_gamepad_manager_obj</object>
         <object>objects\title_text</object>
         <object>objects\play_text</object>
         <object>objects\exit_text</object>
@@ -98,6 +101,7 @@
         <object>objects\back_text</object>
         <object>objects\continue_text</object>
         <object>objects\cane2_text</object>
+        <object>objects\target_tutorial_text</object>
       </objects>
       <objects name="joysticks">
         <object>objects\joystick_left_up_obj</object>
@@ -111,12 +115,9 @@
       <object>objects\gamepad_obj</object>
     </objects>
     <objects name="levels">
-      <objects name="level01">
-        <object>objects\level01_intro_text</object>
-        <object>objects\level01_intro_image</object>
-        <object>objects\level01_intro_controller_obj</object>
-      </objects>
+      <object>objects\level_intro_gamepad_manager_obj</object>
       <object>objects\level_manager_obj</object>
+      <object>objects\level01_intro_manager_obj</object>
     </objects>
     <objects name="characters">
       <object>objects\black_mother_text</object>
@@ -129,11 +130,11 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\level01</room>
     <room>rooms\intro</room>
     <room>rooms\menu_main</room>
     <room>rooms\tutorial</room>
     <room>rooms\level01_intro</room>
+    <room>rooms\level01</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

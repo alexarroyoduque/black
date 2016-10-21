@@ -53,12 +53,9 @@
   <instances>
     <instance objName="gamepad_obj" x="1088" y="128" name="inst_8B08D888" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="continue_text" x="1088" y="32" name="inst_37058FC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="level01_intro_controller_obj" x="0" y="0" name="inst_8F8D3EF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="level01_intro_text" x="512" y="256" name="inst_6B22956F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="mrs_yellow_obj" x="96" y="128" name="inst_DA437B94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="black_mother_text" x="288" y="608" name="inst_9FE7BBA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="joystick_right_right_fixed_obj" x="1152" y="128" name="inst_1CB0D77A" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="joystick_left_right_fixed_obj" x="1024" y="128" name="inst_04F7710E" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="joystick_left_up_fixed_obj" x="1024" y="128" name="inst_CE73B3A2" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="joystick_right_up_fixed" x="1152" y="128" name="inst_04AC3976" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="level01_intro_manager_obj" x="0" y="0" name="inst_C350533E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

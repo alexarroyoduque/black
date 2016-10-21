@@ -229,7 +229,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>gamepad_player_movement</script>
+            <script>player_gamepad_movement</script>
           </argument>
           <argument>
             <kind>0</kind>
@@ -269,7 +269,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>gamepad_player_cane_mechanics</script>
+            <script>player_gamepad_cane_mechanics</script>
           </argument>
           <argument>
             <kind>0</kind>
@@ -309,7 +309,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>collisions_player_with_tiles</script>
+            <script>player_collisions_with_tiles</script>
           </argument>
           <argument>
             <kind>0</kind>
