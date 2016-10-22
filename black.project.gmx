@@ -64,6 +64,13 @@
       <script>scripts\level_progress_manager.gml</script>
       <script>scripts\level_progress_draw.gml</script>
     </scripts>
+    <scripts name="fade-room-effect">
+      <script>scripts\fade_out_setup.gml</script>
+      <script>scripts\fade_out_next_room_draw.gml</script>
+      <script>scripts\fade_out_previous_room_draw.gml</script>
+      <script>scripts\fade_in_setup.gml</script>
+      <script>scripts\fade_in_draw.gml</script>
+    </scripts>
     <script>scripts\gamepad_detection.gml</script>
     <script>scripts\gamepad_setup.gml</script>
     <script>scripts\player_gamepad_movement.gml</script>
@@ -74,17 +81,13 @@
     <script>scripts\vibration_gamepad_stop.gml</script>
     <script>scripts\level_transition_gamepad_manager.gml</script>
     <script>scripts\level_transition_draw.gml</script>
-    <script>scripts\fade_out_setup.gml</script>
-    <script>scripts\fade_out_next_room_draw.gml</script>
-    <script>scripts\fade_out_previous_room_draw.gml</script>
-    <script>scripts\fade_in_setup.gml</script>
-    <script>scripts\fade_in_draw.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\default_font</font>
     <font>fonts\title_font</font>
     <font>fonts\menu_font</font>
     <font>fonts\timer_font</font>
+    <font>fonts\special_font</font>
   </fonts>
   <objects name="objects">
     <object>objects\black_obj</object>
@@ -123,6 +126,7 @@
       <object>objects\fade_out_next_room_obj</object>
       <object>objects\fade_out_previous_room_obj</object>
       <object>objects\fade_in_obj</object>
+      <object>objects\authors_text_obj</object>
     </objects>
     <objects name="levels">
       <object>objects\vibration_manager</object>
