@@ -52,22 +52,22 @@
 + Interfaz durante la partida
   + Tiempo transcurrido
 
-  ## 0.0.1 - phaser 2.6.2 - Alex
-  + Crear estructura del proyecto
-    + Similar a la usada el shootem totem
-  + Crear un tilemap básico
-    + Definir estados en esqueleto (sin contenido) y
-    transiciones entre ellos
-      + Transiciones
-        + Intro
-        + Game over
-      + Menú
-        + Jugar
-        + Créditos
-      + Pantallas
-        + level-01
-        + level-02
-        + …
+## 0.0.1 - phaser 2.6.2 - Alex
++ Crear estructura del proyecto
+  + Similar a la usada el shootem totem
++ Crear un tilemap básico
+  + Definir estados en esqueleto (sin contenido) y
+  transiciones entre ellos
+    + Transiciones
+      + Intro
+      + Game over
+    + Menú
+      + Jugar
+      + Créditos
+    + Pantallas
+      + level-01
+      + level-02
+      + …
 
 ## 0.0.0 - phaser 2.6.2
 + Crear proyecto en github
