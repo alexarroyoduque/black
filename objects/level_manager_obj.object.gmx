@@ -73,7 +73,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>false</string>
+            <string>true</string>
           </argument>
         </arguments>
       </action>
