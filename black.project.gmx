@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\main_theme_sound</sound>
     <sound>sound\ouch_sound</sound>
+    <sound>sound\silence_city</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\layer_dark_spr</sprite>
