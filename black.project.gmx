@@ -74,6 +74,11 @@
     <script>scripts\vibration_gamepad_stop.gml</script>
     <script>scripts\level_transition_gamepad_manager.gml</script>
     <script>scripts\level_transition_draw.gml</script>
+    <script>scripts\fade_out_setup.gml</script>
+    <script>scripts\fade_out_next_room_draw.gml</script>
+    <script>scripts\fade_out_previous_room_draw.gml</script>
+    <script>scripts\fade_in_setup.gml</script>
+    <script>scripts\fade_in_draw.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\default_font</font>
@@ -97,7 +102,7 @@
         <object>objects\exit_text</object>
       </objects>
       <objects name="tutorial">
-        <object>objects\controller_tutorial_obj</object>
+        <object>objects\tutorial_gamepad_manager_obj</object>
         <object>objects\movement_text</object>
         <object>objects\cane_text</object>
         <object>objects\back_text</object>
@@ -115,6 +120,9 @@
         <object>objects\joystick_right_right_fixed_obj</object>
       </objects>
       <object>objects\gamepad_obj</object>
+      <object>objects\fade_out_next_room_obj</object>
+      <object>objects\fade_out_previous_room_obj</object>
+      <object>objects\fade_in_obj</object>
     </objects>
     <objects name="levels">
       <object>objects\vibration_manager</object>

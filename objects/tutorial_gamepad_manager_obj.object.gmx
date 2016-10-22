@@ -11,65 +11,25 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>211</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sound</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>6</kind>
-            <sound>main_theme_sound</sound>
-          </argument>
-          <argument>
-            <kind>3</kind>
-            <string>1</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>601</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_execute_script</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>9</kind>
-            <script>gamepad_setup</script>
+            <kind>1</kind>
+            <string>gamepadAvailable</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
+            <string>false</string>
           </argument>
         </arguments>
       </action>
@@ -89,7 +49,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>room_speed*3</string>
+            <string>room_speed*0.5</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -97,8 +57,6 @@
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
         <id>201</id>
@@ -115,7 +73,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>fade_out_next_room_obj</object>
+            <object>fade_in_obj</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -124,6 +82,65 @@
           <argument>
             <kind>0</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>gamepadAvailable</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>true</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+if (global.padIndex != -1 &amp;&amp; gamepadAvailable) {
+    var verticalLeft = gamepad_axis_value(global.padIndex, gp_axislv);
+    var verticalRight = gamepad_axis_value(global.padIndex, gp_axisrv);
+
+    if (verticalLeft &lt; -0.8 &amp;&amp; verticalRight &lt; -0.8) { // up
+        instance_create(x, y, fade_out_next_room_obj);
+    } else if (verticalLeft &gt; +0.8 &amp;&amp; verticalRight &gt; +0.8) { // down
+        instance_create(x, y, fade_out_previous_room_obj);
+    }
+}
+</string>
           </argument>
         </arguments>
       </action>

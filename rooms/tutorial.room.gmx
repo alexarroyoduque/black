@@ -65,7 +65,7 @@
     <instance objName="continue_text" x="1088" y="32" name="inst_37058FC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="back_text" x="192" y="32" name="inst_854FD14C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="joystick_left_4_directions_obj" x="448" y="384" name="inst_0080958E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="controller_tutorial_obj" x="16" y="16" name="inst_8F026C3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tutorial_gamepad_manager_obj" x="16" y="16" name="inst_8F026C3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="target_tutorial_text" x="640" y="96" name="inst_A400D8EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
