@@ -10,6 +10,10 @@
     <sound>sound\silence_city</sound>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\car_left_spr</sprite>
+    <sprite>sprites\car_right_spr</sprite>
+    <sprite>sprites\car_bottom_spr</sprite>
+    <sprite>sprites\car_top_spr</sprite>
     <sprite>sprites\layer_dark_spr</sprite>
     <sprite>sprites\layer_blood_spr</sprite>
     <sprite>sprites\black_spr</sprite>
@@ -148,6 +152,9 @@
       <object>objects\layer_blood_obj</object>
       <object>objects\restart_level_obj</object>
     </objects>
+    <object>objects\car_bottom_obj</object>
+    <object>objects\car_top_obj</object>
+    <object>objects\traffic_controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\intro</room>
@@ -157,6 +164,7 @@
     <room>rooms\level01</room>
     <room>rooms\level01_end</room>
     <room>rooms\level02_intro</room>
+    <room>rooms\level02</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
