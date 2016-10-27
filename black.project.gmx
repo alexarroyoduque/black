@@ -10,6 +10,7 @@
     <sound>sound\silence_city</sound>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\traffic_light_spr</sprite>
     <sprite>sprites\car_left_spr</sprite>
     <sprite>sprites\car_right_spr</sprite>
     <sprite>sprites\car_bottom_spr</sprite>
@@ -155,6 +156,7 @@
     <object>objects\car_bottom_obj</object>
     <object>objects\car_top_obj</object>
     <object>objects\traffic_controller</object>
+    <object>objects\traffic_light_oobj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\intro</room>
