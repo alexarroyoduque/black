@@ -11,6 +11,29 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+trafficLightSound = audio_play_sound(traffic_light_sound, 10, true);
+audio_sound_gain(trafficLightSound, 0, 0);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>611</id>
         <kind>6</kind>
         <userelative>-1</userelative>
@@ -414,6 +437,27 @@ show_debug_message(sprite_index)
       </action>
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>audio_sound_gain(trafficLightSound, 0, 0);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>424</id>
         <kind>2</kind>
         <userelative>0</userelative>
@@ -449,6 +493,110 @@ show_debug_message(sprite_index)
             <string>0</string>
           </argument>
         </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>408</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>lightIsGreen</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (distance_to_object(black_obj) &lt; 50) {
+  audio_sound_gain(trafficLightSound, 1, 5);
+  
+} else if (distance_to_object(black_obj) &gt; 50 &amp;&amp;
+    distance_to_object(black_obj) &lt; 80) {
+  audio_sound_gain(trafficLightSound, 0.9, 5);
+  
+} else if (distance_to_object(black_obj) &gt; 80 &amp;&amp;
+    distance_to_object(black_obj) &lt; 100) {
+  audio_sound_gain(trafficLightSound, 0.8, 5);
+  
+} else if (distance_to_object(black_obj) &gt; 100 &amp;&amp;
+    distance_to_object(black_obj) &lt; 130) {
+  audio_sound_gain(trafficLightSound, 0.6, 5);
+  
+} else if (distance_to_object(black_obj) &gt; 130 &amp;&amp;
+    distance_to_object(black_obj) &lt; 160) {
+  audio_sound_gain(trafficLightSound, 0.5, 5);
+  
+} else if (distance_to_object(black_obj) &gt; 160 &amp;&amp;
+    distance_to_object(black_obj) &lt; 200) {
+  audio_sound_gain(trafficLightSound, 0.3, 5);
+  
+} else if (distance_to_object(black_obj) &gt; 220 &amp;&amp;
+    distance_to_object(black_obj) &lt; 250) {
+  audio_sound_gain(trafficLightSound, 0.2, 5);
+  
+} else if (distance_to_object(black_obj) &gt; 250 &amp;&amp;
+    distance_to_object(black_obj) &lt; 280) {
+  audio_sound_gain(trafficLightSound, 0.1, 5);
+  
+} else {
+    audio_sound_gain(trafficLightSound, 0, 5);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
     </event>
   </events>

@@ -8,6 +8,7 @@
     <sound>sound\main_theme_sound</sound>
     <sound>sound\ouch_sound</sound>
     <sound>sound\silence_city</sound>
+    <sound>sound\traffic_light_sound</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\traffic_light_spr</sprite>
