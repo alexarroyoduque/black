@@ -154,8 +154,7 @@
       <object>objects\restart_level_obj</object>
     </objects>
     <object>objects\car_bottom_obj</object>
-    <object>objects\traffic_controller</object>
-    <object>objects\traffic_light_obj</object>
+    <object>objects\traffic_controller_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level02</room>
