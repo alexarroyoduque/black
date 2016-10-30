@@ -51,11 +51,45 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>room_speed*5</string>
+            <string>room_speed*4</string>
           </argument>
           <argument>
             <kind>4</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>408</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if</functionname>
+        <codestring></codestring>
+        <whoName>traffic_light_obj</whoName>
+        <relative>0</relative>
+        <isnot>-1</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>lightIsGreen</string>
           </argument>
         </arguments>
       </action>
@@ -89,31 +123,17 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>201</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>10</kind>
-            <object>car_bottom_obj</object>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1024</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>64</string>
-          </argument>
-        </arguments>
       </action>
     </event>
   </events>

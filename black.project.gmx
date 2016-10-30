@@ -154,7 +154,6 @@
       <object>objects\restart_level_obj</object>
     </objects>
     <object>objects\car_bottom_obj</object>
-    <object>objects\car_top_obj</object>
     <object>objects\traffic_controller</object>
     <object>objects\traffic_light_obj</object>
   </objects>
