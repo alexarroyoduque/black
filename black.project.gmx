@@ -41,6 +41,8 @@
       <sprite>sprites\mr_green_spr</sprite>
       <sprite>sprites\rose_spr</sprite>
       <sprite>sprites\black_char_spr</sprite>
+      <sprite>sprites\traffic_light_green_spr</sprite>
+      <sprite>sprites\traffic_light_red_spr</sprite>
     </sprites>
     <sprites name="UI">
       <sprite>sprites\progress_bar_border_spr</sprite>
@@ -147,7 +149,10 @@
       <object>objects\level_manager_obj</object>
       <object>objects\level01_intro_manager_obj</object>
       <object>objects\level01_end_manager_obj</object>
-      <object>objects\level02_intro_manager_obj</object>
+      <object>objects\level02_intro_1_manager_obj</object>
+      <object>objects\level02_intro_2_manager_obj</object>
+      <object>objects\level02_intro_3_manager_obj</object>
+      <object>objects\level02_end_manager_obj</object>
     </objects>
     <objects name="UI">
       <object>objects\level_progress_obj</object>
@@ -166,8 +171,11 @@
     <room>rooms\level01_intro</room>
     <room>rooms\level01</room>
     <room>rooms\level01_end</room>
-    <room>rooms\level02_intro</room>
+    <room>rooms\level02_intro_1</room>
+    <room>rooms\level02_intro_2</room>
+    <room>rooms\level02_intro_3</room>
     <room>rooms\level02</room>
+    <room>rooms\level_02_end</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

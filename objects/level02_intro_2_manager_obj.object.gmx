@@ -59,15 +59,15 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>black_char_spr</string>
+            <string>traffic_light_red_spr</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Black'</string>
+            <string>'Semáforo rojo'</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Ahora tengo que llevar algunas fresas a los vecinos. Cuando esté cerca de un cruce notaré una ligera vibración. Deberé cruzar cuando el semáforo suene para no ser atropellado por los coches.'</string>
+            <string>'Cruzar en rojo puede ser fatal. Es mejor esperar a que el semáforo esté en verde para no ser atropellado por un coche.'</string>
           </argument>
           <argument>
             <kind>0</kind>
