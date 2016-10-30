@@ -10,6 +10,7 @@
     <sound>sound\silence_city</sound>
     <sound>sound\traffic_light_sound</sound>
     <sound>sound\car_sound</sound>
+    <sound>sound\complete_sound</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\traffic_light_spr</sprite>
@@ -144,6 +145,7 @@
       <object>objects\fade_out_previous_room_obj</object>
       <object>objects\fade_in_obj</object>
       <object>objects\authors_text_obj</object>
+      <object>objects\complete_sound_obj</object>
     </objects>
     <objects name="levels">
       <object>objects\vibration_manager</object>
