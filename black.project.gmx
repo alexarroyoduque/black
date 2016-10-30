@@ -11,10 +11,7 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\traffic_light_spr</sprite>
-    <sprite>sprites\car_left_spr</sprite>
-    <sprite>sprites\car_right_spr</sprite>
     <sprite>sprites\car_bottom_spr</sprite>
-    <sprite>sprites\car_top_spr</sprite>
     <sprite>sprites\layer_dark_spr</sprite>
     <sprite>sprites\layer_blood_spr</sprite>
     <sprite>sprites\black_spr</sprite>
@@ -85,6 +82,7 @@
     <script>scripts\player_gamepad_movement.gml</script>
     <script>scripts\player_gamepad_cane_mechanics.gml</script>
     <script>scripts\player_collisions_with_tiles.gml</script>
+    <script>scripts\player_collisions_with_car.gml</script>
     <script>scripts\cane_vibration_gamepad.gml</script>
     <script>scripts\vibration_setup.gml</script>
     <script>scripts\vibration_gamepad_stop.gml</script>
@@ -104,7 +102,7 @@
     <object>objects\tiles_obj</object>
     <object>objects\flag_obj</object>
     <object>objects\traffic_controller_obj</object>
-    <object>objects\car_bottom_obj</object>
+    <object>objects\car_obj</object>
     <objects name="menus">
       <objects name="intro">
         <object>objects\intro_obj</object>
@@ -154,6 +152,7 @@
       <object>objects\layer_dark_obj</object>
       <object>objects\layer_blood_obj</object>
       <object>objects\restart_level_obj</object>
+      <object>objects\hit_by_car_message_obj</object>
     </objects>
   </objects>
   <rooms name="rooms">

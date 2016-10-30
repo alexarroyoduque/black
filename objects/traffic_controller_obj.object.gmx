@@ -209,7 +209,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>car_bottom_obj</object>
+            <object>car_obj</object>
           </argument>
           <argument>
             <kind>0</kind>
