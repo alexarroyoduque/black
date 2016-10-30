@@ -11,6 +11,26 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
+        <id>212</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_end_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>traffic_light_sound</sound>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>201</id>
         <kind>0</kind>
         <userelative>-1</userelative>
@@ -59,19 +79,19 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>rose_spr</string>
+            <string>gamepad_vibration_spr</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Rose'</string>
+            <string>'Zona crítica'</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'¡Ah! ¡Eres tú Black! ¿Nos has traído fresas? ¡Muchas gracias seguro que están riquísimas!'</string>
+            <string>'Además cuando estés cerca de un semáforo el gamepad vibrará ligeramente.'</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>setRose_color</string>
+            <string>setWhite_color</string>
           </argument>
           <argument>
             <kind>0</kind>

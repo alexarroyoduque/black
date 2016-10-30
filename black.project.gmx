@@ -43,6 +43,7 @@
       <sprite>sprites\black_char_spr</sprite>
       <sprite>sprites\traffic_light_green_spr</sprite>
       <sprite>sprites\traffic_light_red_spr</sprite>
+      <sprite>sprites\gamepad_vibration_spr</sprite>
     </sprites>
     <sprites name="UI">
       <sprite>sprites\progress_bar_border_spr</sprite>
@@ -64,6 +65,7 @@
       <script>scripts\setYellow_color.gml</script>
       <script>scripts\setGreen_color.gml</script>
       <script>scripts\setWhite_color.gml</script>
+      <script>scripts\setRose_color.gml</script>
     </scripts>
     <scripts name="timer">
       <script>scripts\timer_setup.gml</script>
@@ -152,7 +154,9 @@
       <object>objects\level02_intro_1_manager_obj</object>
       <object>objects\level02_intro_2_manager_obj</object>
       <object>objects\level02_intro_3_manager_obj</object>
+      <object>objects\level02_intro_4_manager_obj</object>
       <object>objects\level02_end_manager_obj</object>
+      <object>objects\level03_intro_manager_obj</object>
     </objects>
     <objects name="UI">
       <object>objects\level_progress_obj</object>
@@ -174,8 +178,10 @@
     <room>rooms\level02_intro_1</room>
     <room>rooms\level02_intro_2</room>
     <room>rooms\level02_intro_3</room>
+    <room>rooms\level02_intro_4</room>
     <room>rooms\level02</room>
-    <room>rooms\level_02_end</room>
+    <room>rooms\level02_end</room>
+    <room>rooms\level03_intro</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

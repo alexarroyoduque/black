@@ -59,19 +59,19 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>rose_spr</string>
+            <string>black_char_spr</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Rose'</string>
+            <string>'Black'</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'¡Ah! ¡Eres tú Black! ¿Nos has traído fresas? ¡Muchas gracias seguro que están riquísimas!'</string>
+            <string>'Hora de volver a casa.'</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>setRose_color</string>
+            <string>setWhite_color</string>
           </argument>
           <argument>
             <kind>0</kind>
