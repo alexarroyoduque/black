@@ -66,6 +66,8 @@
     <instance objName="tiles_obj" x="1088" y="416" name="inst_6DCB4711" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="1088" y="672" name="inst_6B8020A8" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="traffic_controller_obj" x="704" y="352" name="inst_8883C430" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="critical_zone_obj" x="640" y="448" name="inst_99FD321F" locked="0" code="" scaleX="3" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="critical_zone_obj" x="1088" y="448" name="inst_9751A848" locked="0" code="" scaleX="3" scaleY="7" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

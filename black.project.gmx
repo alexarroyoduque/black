@@ -9,6 +9,7 @@
     <sound>sound\ouch_sound</sound>
     <sound>sound\silence_city</sound>
     <sound>sound\traffic_light_sound</sound>
+    <sound>sound\car_sound</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\traffic_light_spr</sprite>
@@ -19,6 +20,7 @@
     <sprite>sprites\tiles_spr</sprite>
     <sprite>sprites\flag_spr</sprite>
     <sprite>sprites\cane_spr</sprite>
+    <sprite>sprites\critical_zone_spr</sprite>
     <sprite>sprites\gamepad_spr</sprite>
     <sprites name="joysticks">
       <sprites name="left">
@@ -104,6 +106,7 @@
     <object>objects\flag_obj</object>
     <object>objects\traffic_controller_obj</object>
     <object>objects\car_obj</object>
+    <object>objects\critical_zone_obj</object>
     <objects name="menus">
       <objects name="intro">
         <object>objects\intro_obj</object>

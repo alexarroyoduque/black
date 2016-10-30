@@ -33,6 +33,80 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>carSound = audio_play_sound(car_sound, 8, true);
+audio_sound_gain(carSound, 0, 0);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (distance_to_object(black_obj) &lt; 30) {
+  audio_sound_gain(carSound, 1, 5);
+  
+} else if (distance_to_object(black_obj) &gt; 30 &amp;&amp;
+    distance_to_object(black_obj) &lt; 50) {
+  audio_sound_gain(carSound, 0.8, 5);
+  
+} else if (distance_to_object(black_obj) &gt; 50 &amp;&amp;
+    distance_to_object(black_obj) &lt; 80) {
+  audio_sound_gain(carSound, 0.6, 5);
+  
+} else if (distance_to_object(black_obj) &gt; 80 &amp;&amp;
+    distance_to_object(black_obj) &lt; 100) {
+  audio_sound_gain(carSound, 0.4, 5);
+  
+} else if (distance_to_object(black_obj) &gt; 100 &amp;&amp;
+    distance_to_object(black_obj) &lt; 120) {
+  audio_sound_gain(carSound, 0.3, 5);
+  
+} else if (distance_to_object(black_obj) &gt; 120 &amp;&amp;
+    distance_to_object(black_obj) &lt; 140) {
+  audio_sound_gain(carSound, 0.2, 5);
+  
+} else if (distance_to_object(black_obj) &gt; 140 &amp;&amp;
+    distance_to_object(black_obj) &lt; 160) {
+  audio_sound_gain(carSound, 0.1, 5);
+  
+} else {
+    audio_sound_gain(carSound, 0, 5);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="7" enumb="0">
       <action>
