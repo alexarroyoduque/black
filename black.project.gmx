@@ -100,9 +100,11 @@
   </fonts>
   <objects name="objects">
     <object>objects\black_obj</object>
-    <object>objects\tiles_obj</object>
     <object>objects\cane_obj</object>
+    <object>objects\tiles_obj</object>
     <object>objects\flag_obj</object>
+    <object>objects\traffic_controller_obj</object>
+    <object>objects\car_bottom_obj</object>
     <objects name="menus">
       <objects name="intro">
         <object>objects\intro_obj</object>
@@ -153,8 +155,6 @@
       <object>objects\layer_blood_obj</object>
       <object>objects\restart_level_obj</object>
     </objects>
-    <object>objects\car_bottom_obj</object>
-    <object>objects\traffic_controller_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level02</room>

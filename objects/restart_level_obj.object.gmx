@@ -183,11 +183,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>640</string>
+            <string>view_xview[0] + 640</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>360</string>
+            <string>view_yview[0] + 360</string>
           </argument>
         </arguments>
       </action>
