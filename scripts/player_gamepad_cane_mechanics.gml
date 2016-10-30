@@ -16,6 +16,7 @@ if (global.padIndex != -1)
            
             with (instance_create(x, y, cane_obj))
             {
+            show_debug_message('crea el baston');
                 speed = 0;
                 image_angle = dif;
                 direction = image_angle;
@@ -42,6 +43,7 @@ if (global.padIndex != -1)
 
           with (cane_obj)
           {
+          show_debug_message('destruye el baston');
             instance_destroy();
           }  
         }

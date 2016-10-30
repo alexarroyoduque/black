@@ -91,7 +91,8 @@
     <script>scripts\player_gamepad_cane_mechanics.gml</script>
     <script>scripts\player_collisions_with_tiles.gml</script>
     <script>scripts\player_collisions_with_car.gml</script>
-    <script>scripts\cane_vibration_gamepad.gml</script>
+    <script>scripts\cane_tiles_vibration_gamepad.gml</script>
+    <script>scripts\critical_zone_vibration_gamepad.gml</script>
     <script>scripts\vibration_setup.gml</script>
     <script>scripts\vibration_gamepad_stop.gml</script>
     <script>scripts\level_transition_gamepad_manager.gml</script>
