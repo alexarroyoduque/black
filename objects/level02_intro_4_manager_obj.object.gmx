@@ -87,7 +87,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Además cuando estés cerca de un semáforo el gamepad vibrará ligeramente.'</string>
+            <string>'Sabrás que estás en un cruce porque el gamepad vibrará sutilmente. Si el semáforo no suena será mejor esperar.'</string>
           </argument>
           <argument>
             <kind>0</kind>
