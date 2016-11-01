@@ -74,6 +74,8 @@
       <script>scripts\timer_setup.gml</script>
       <script>scripts\timer_manager.gml</script>
       <script>scripts\timer_draw.gml</script>
+      <script>scripts\save_room_time.gml</script>
+      <script>scripts\load_room_time.gml</script>
     </scripts>
     <scripts name="level-progress">
       <script>scripts\level_progress_setup.gml</script>
