@@ -63,6 +63,7 @@
     <scripts name="font-colors">
       <script>scripts\setPrimary_color.gml</script>
       <script>scripts\setSecondary_color.gml</script>
+      <script>scripts\setGolden_color.gml</script>
       <script>scripts\setLightGray_color.gml</script>
       <script>scripts\setYellow_color.gml</script>
       <script>scripts\setGreen_color.gml</script>
@@ -148,6 +149,11 @@
         <object>objects\joystick_left_4_directions_obj</object>
         <object>objects\joystick_right_right_fixed_obj</object>
       </objects>
+      <objects name="thanks_for_playing">
+        <object>objects\thanks_gamepad_manager_obj</object>
+        <object>objects\you_win_text</object>
+        <object>objects\thanks_text</object>
+      </objects>
       <object>objects\gamepad_obj</object>
       <object>objects\fade_out_next_room_obj</object>
       <object>objects\fade_out_previous_room_obj</object>
@@ -179,7 +185,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\menu_records</room>
+    <room>rooms\thanks_for_playing</room>
     <room>rooms\intro</room>
     <room>rooms\menu_main</room>
     <room>rooms\tutorial</room>
@@ -193,6 +199,7 @@
     <room>rooms\level02</room>
     <room>rooms\level02_end</room>
     <room>rooms\level03_intro</room>
+    <room>rooms\menu_records</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
