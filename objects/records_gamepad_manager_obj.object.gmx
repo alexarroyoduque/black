@@ -164,18 +164,12 @@
           <argument>
             <kind>1</kind>
             <string>
-if (global.padIndex != -1) {
+if (global.padIndex != -1 &amp;&amp; gamepadAvailable) {
     var verticalLeft = gamepad_axis_value(global.padIndex, gp_axislv);
     var verticalRight = gamepad_axis_value(global.padIndex, gp_axisrv);
-    var horizontalLeft = gamepad_axis_value(global.padIndex, gp_axislh);
-    var horizontalRight = gamepad_axis_value(global.padIndex, gp_axisrh);
 
-    if (verticalLeft &lt; -0.9) { // up - left joystick
-        instance_create(x, y, fade_out_next_room_obj);
-    } else if (verticalRight &gt; +0.9 &amp;&amp; verticalLeft &lt; +0.5) { // down - right joystick
-        game_end();
-    } else if (verticalLeft &gt; +0.9 &amp;&amp; verticalRight &lt; +0.5) { // down - left joystick
-        room_goto(menu_records);
+    if (verticalLeft &lt; -0.8 &amp;&amp; verticalRight &lt; -0.8) { // up
+        room_goto(menu_main);
     }
 }
 </string>
