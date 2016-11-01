@@ -134,7 +134,11 @@
         <object>objects\cane2_text</object>
         <object>objects\target_tutorial_text</object>
       </objects>
-      <object>objects\records_gamepad_manager_obj</object>
+      <objects name="records">
+        <object>objects\records_gamepad_manager_obj</object>
+        <object>objects\title_records_text</object>
+        <object>objects\records_table_obj</object>
+      </objects>
       <objects name="joysticks">
         <object>objects\joystick_left_up_obj</object>
         <object>objects\joystick_right_standby</object>
@@ -175,6 +179,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\menu_records</room>
     <room>rooms\intro</room>
     <room>rooms\menu_main</room>
     <room>rooms\tutorial</room>
@@ -188,7 +193,6 @@
     <room>rooms\level02</room>
     <room>rooms\level02_end</room>
     <room>rooms\level03_intro</room>
-    <room>rooms\menu_records</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
