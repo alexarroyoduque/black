@@ -6,11 +6,16 @@ if (global.padIndex != -1) {
             instance_deactivate_all(true);
             gamepadDelay = 1;
             alarm_set(0,room_speed*0.5);
+            instance_create(0,0, pause_message_obj);
         } else {
              pause = 0;
              instance_activate_all();
              gamepadDelay = 1;
              alarm_set(0,room_speed*0.5);
+             
+             with (pause_message_obj) {
+                instance_destroy();
+             }
         }
     }
 

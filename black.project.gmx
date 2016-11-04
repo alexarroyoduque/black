@@ -188,15 +188,16 @@
       <object>objects\layer_blood_obj</object>
       <object>objects\restart_level_obj</object>
       <object>objects\hit_by_car_message_obj</object>
+      <object>objects\pause_message_obj</object>
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\level01</room>
     <room>rooms\intro</room>
     <room>rooms\intro_tutorial</room>
     <room>rooms\menu_main</room>
     <room>rooms\tutorial</room>
     <room>rooms\level01_intro</room>
-    <room>rooms\level01</room>
     <room>rooms\level01_end</room>
     <room>rooms\level02_intro_1</room>
     <room>rooms\level02_intro_2</room>
