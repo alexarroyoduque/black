@@ -93,6 +93,7 @@
     </scripts>
     <script>scripts\gamepad_detection.gml</script>
     <script>scripts\gamepad_setup.gml</script>
+    <script>scripts\gamepad_pause.gml</script>
     <script>scripts\player_gamepad_movement.gml</script>
     <script>scripts\player_gamepad_cane_mechanics.gml</script>
     <script>scripts\player_collisions_with_tiles.gml</script>

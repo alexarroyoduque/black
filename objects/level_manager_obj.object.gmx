@@ -430,48 +430,41 @@ gamepadDelay = 0;
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>601</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>if(gamepadDelay) exit;
-if (global.padIndex != -1) { 
-    if(gamepad_button_check(global.padIndex, gp_start)){
-        if(!pause){
-            pause = 1;
-            instance_deactivate_all(true);
-            gamepadDelay = 1;
-            alarm_set(0,room_speed*0.5);
-        } else {
-             pause = 0;
-             instance_activate_all();
-             gamepadDelay = 1;
-             alarm_set(0,room_speed*0.5);
-        }
-    }
-
-    if (pause) {
-        var verticalLeft = gamepad_axis_value(global.padIndex, gp_axislv);
-        var verticalRight = gamepad_axis_value(global.padIndex, gp_axisrv);
-        
-        if (verticalLeft &gt; +0.8 &amp;&amp; verticalRight &gt; +0.8) { // down
-            room_goto(menu_main);
-        }
-    }
-
-}
-
-</string>
+            <kind>9</kind>
+            <script>gamepad_pause</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
