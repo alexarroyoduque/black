@@ -452,15 +452,23 @@ if (global.padIndex != -1) {
             instance_deactivate_all(true);
             gamepadDelay = 1;
             alarm_set(0,room_speed*0.5);
-        }else{
+        } else {
              pause = 0;
              instance_activate_all();
              gamepadDelay = 1;
              alarm_set(0,room_speed*0.5);
         }
     }
-    
-    
+
+    if (pause) {
+        var verticalLeft = gamepad_axis_value(global.padIndex, gp_axislv);
+        var verticalRight = gamepad_axis_value(global.padIndex, gp_axisrv);
+        
+        if (verticalLeft &gt; +0.8 &amp;&amp; verticalRight &gt; +0.8) { // down
+            room_goto(menu_main);
+        }
+    }
+
 }
 
 </string>
