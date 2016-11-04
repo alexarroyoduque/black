@@ -122,6 +122,7 @@
     <objects name="menus">
       <objects name="intro">
         <object>objects\intro_obj</object>
+        <object>objects\intro_tutorial_manager_obj</object>
       </objects>
       <objects name="main">
         <object>objects\menu_main_gamepad_manager_obj</object>
@@ -190,6 +191,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\intro</room>
+    <room>rooms\intro_tutorial</room>
     <room>rooms\menu_main</room>
     <room>rooms\tutorial</room>
     <room>rooms\level01_intro</room>
