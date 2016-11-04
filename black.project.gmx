@@ -45,6 +45,7 @@
       <sprite>sprites\traffic_light_green_spr</sprite>
       <sprite>sprites\traffic_light_red_spr</sprite>
       <sprite>sprites\gamepad_vibration_spr</sprite>
+      <sprite>sprites\blue_char_spr</sprite>
     </sprites>
     <sprites name="UI">
       <sprite>sprites\progress_bar_border_spr</sprite>
@@ -69,6 +70,7 @@
       <script>scripts\setGreen_color.gml</script>
       <script>scripts\setWhite_color.gml</script>
       <script>scripts\setRose_color.gml</script>
+      <script>scripts\setBlue_color.gml</script>
     </scripts>
     <scripts name="timer">
       <script>scripts\timer_setup.gml</script>
