@@ -192,12 +192,12 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\level01</room>
     <room>rooms\intro</room>
     <room>rooms\intro_tutorial</room>
     <room>rooms\menu_main</room>
     <room>rooms\tutorial</room>
     <room>rooms\level01_intro</room>
+    <room>rooms\level01</room>
     <room>rooms\level01_end</room>
     <room>rooms\level02_intro_1</room>
     <room>rooms\level02_intro_2</room>

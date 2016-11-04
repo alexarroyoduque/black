@@ -75,7 +75,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>setYellow_color</script>
+            <script>setLightGray_color</script>
           </argument>
           <argument>
             <kind>0</kind>
@@ -115,7 +115,7 @@
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>Pulsa del botón de pausa para continuar</string>
+            <string>Pulsa el botón de pausa para continuar</string>
           </argument>
           <argument>
             <kind>0</kind>
