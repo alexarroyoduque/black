@@ -87,11 +87,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>rose_spr</string>
+            <string>violet_spr</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Rose'</string>
+            <string>'Violet'</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -99,7 +99,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>setRose_color</string>
+            <string>setViolet_color</string>
           </argument>
           <argument>
             <kind>0</kind>

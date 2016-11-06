@@ -40,12 +40,15 @@
     <sprites name="characters">
       <sprite>sprites\mrs_yellow_spr</sprite>
       <sprite>sprites\mr_green_spr</sprite>
-      <sprite>sprites\rose_spr</sprite>
+      <sprite>sprites\violet_spr</sprite>
       <sprite>sprites\black_char_spr</sprite>
       <sprite>sprites\traffic_light_green_spr</sprite>
       <sprite>sprites\traffic_light_red_spr</sprite>
       <sprite>sprites\gamepad_vibration_spr</sprite>
+      <sprite>sprites\mr_orange_spr</sprite>
+      <sprite>sprites\cyan_spr</sprite>
       <sprite>sprites\blue_char_spr</sprite>
+      <sprite>sprites\red_spr</sprite>
     </sprites>
     <sprites name="UI">
       <sprite>sprites\progress_bar_border_spr</sprite>
@@ -69,7 +72,10 @@
       <script>scripts\setYellow_color.gml</script>
       <script>scripts\setGreen_color.gml</script>
       <script>scripts\setWhite_color.gml</script>
-      <script>scripts\setRose_color.gml</script>
+      <script>scripts\setViolet_color.gml</script>
+      <script>scripts\setOrange_color.gml</script>
+      <script>scripts\setRed_color.gml</script>
+      <script>scripts\setCyan_color.gml</script>
       <script>scripts\setBlue_color.gml</script>
     </scripts>
     <scripts name="timer">
