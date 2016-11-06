@@ -40,11 +40,11 @@
     <sprites name="characters">
       <sprite>sprites\mrs_yellow_spr</sprite>
       <sprite>sprites\mr_green_spr</sprite>
-      <sprite>sprites\violet_spr</sprite>
       <sprite>sprites\black_char_spr</sprite>
-      <sprite>sprites\traffic_light_green_spr</sprite>
       <sprite>sprites\traffic_light_red_spr</sprite>
+      <sprite>sprites\traffic_light_green_spr</sprite>
       <sprite>sprites\gamepad_vibration_spr</sprite>
+      <sprite>sprites\violet_spr</sprite>
       <sprite>sprites\mr_orange_spr</sprite>
       <sprite>sprites\cyan_spr</sprite>
       <sprite>sprites\blue_char_spr</sprite>
