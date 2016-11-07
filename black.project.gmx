@@ -83,12 +83,14 @@
       <script>scripts\timer_manager.gml</script>
       <script>scripts\timer_draw.gml</script>
       <script>scripts\save_room_time.gml</script>
+      <script>scripts\time_player_restart_scr.gml</script>
       <script>scripts\load_room_time.gml</script>
     </scripts>
     <scripts name="level-progress">
       <script>scripts\level_progress_setup.gml</script>
       <script>scripts\level_progress_manager.gml</script>
       <script>scripts\level_progress_draw.gml</script>
+      <script>scripts\save_to_leaderboard.gml</script>
     </scripts>
     <scripts name="fade-room-effect">
       <script>scripts\fade_out_setup.gml</script>
@@ -196,6 +198,7 @@
       <object>objects\hit_by_car_message_obj</object>
       <object>objects\pause_message_obj</object>
     </objects>
+    <object>objects\ranking_injector_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\intro</room>
@@ -212,8 +215,8 @@
     <room>rooms\level02</room>
     <room>rooms\level02_end</room>
     <room>rooms\level03_intro</room>
-    <room>rooms\thanks_for_playing</room>
     <room>rooms\menu_records</room>
+    <room>rooms\thanks_for_playing</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
