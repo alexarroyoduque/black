@@ -63,6 +63,47 @@ for(var i=0; i&lt;positions; i++) {
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(file_exists("leader_board.sav"))
+{
+    var total,
+    date = string(current_year) + "-" + string(current_month) + "-" + string(current_day),
+    levelMinutesResult,
+    levelSecondsResult;
+    ini_open("leader_board.sav")
+    for(var i = 0; i &lt; 10; i++)
+    {   total = ini_read_real(string(i), "total_result", 0);
+        draw_text(xMargin , yMargin + 110 + verticalDistance*i, total);
+        draw_text(xMargin + horizontalDistance , yMargin + 110 + verticalDistance*i, date);
+        for(var j = 0; j &lt; 5 ; j++)
+        {
+           levelMinutesResult =  round(ini_read_real(string(i),"level0"+ string(j + 1)+"-minutes",0));
+           levelSecondsResult =  round(ini_read_real(string(i),"level0"+ string(j + 1)+"-seconds",0));
+
+           draw_text(xMargin + horizontalDistance*2 + j*horizontalDistance, yMargin + 110 + verticalDistance*i, string(levelMinutesResult)+":"+string(levelSecondsResult));
+        }
+    }
+    ini_close();
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
   </events>
   <PhysicsObject>0</PhysicsObject>

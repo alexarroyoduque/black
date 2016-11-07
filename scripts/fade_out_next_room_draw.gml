@@ -1,6 +1,10 @@
 a = clamp(a + (fade * fadeFactor),0,1);
 
 if (a == 1) {
+    if(room > 3)
+    {
+        script_execute(save_room_time());
+    }
     room_goto_next();
     fade = -1;
 }
