@@ -82,20 +82,27 @@ for(var i=0; i&lt;positions; i++) {
             <string>if(file_exists("leader_board.sav"))
 {
     var total,
-    date = string(current_year) + "-" + string(current_month) + "-" + string(current_day),
+    date = string(current_year) + "-" + twoDigitsCheck_scr(string(current_month)) + "-" + twoDigitsCheck_scr(string(current_day)),
     levelMinutesResult,
-    levelSecondsResult;
+    levelSecondsResult,
+    totalMinutes,
+    totalSeconds;
     ini_open("leader_board.sav")
     for(var i = 0; i &lt; 10; i++)
     {   total = ini_read_real(string(i), "total_result", 0);
-        draw_text(xMargin , yMargin + 110 + verticalDistance*i, total);
-        draw_text(xMargin + horizontalDistance , yMargin + 110 + verticalDistance*i, date);
-        for(var j = 0; j &lt; 5 ; j++)
-        {
-           levelMinutesResult =  round(ini_read_real(string(i),"level0"+ string(j + 1)+"-minutes",0));
-           levelSecondsResult =  round(ini_read_real(string(i),"level0"+ string(j + 1)+"-seconds",0));
-
-           draw_text(xMargin + horizontalDistance*2 + j*horizontalDistance, yMargin + 110 + verticalDistance*i, string(levelMinutesResult)+":"+string(levelSecondsResult));
+        if(total &gt; 0)
+        {   totalMinutes = twoDigitsCheck_scr(string(total div 60));
+            totalSeconds = twoDigitsCheck_scr(string(total mod 60));
+            draw_text(xMargin , yMargin + 110 + verticalDistance*i,string(totalMinutes) + ":" + string(totalSeconds));
+            draw_text(xMargin + horizontalDistance , yMargin + 110 + verticalDistance*i, date);
+            for(var j = 0; j &lt; 5 ; j++)
+            {
+               levelMinutesResult =  twoDigitsCheck_scr(string(round(ini_read_real(string(i),"level0"+ string(j + 1)+"-minutes",0))));
+               levelSecondsResult =  twoDigitsCheck_scr(string(round(ini_read_real(string(i),"level0"+ string(j + 1)+"-seconds",0))));
+    
+               draw_text(xMargin + horizontalDistance*2 + j*horizontalDistance, yMargin + 110 + verticalDistance*i,string(levelMinutesResult)+":"+ string(levelSecondsResult));
+            }
+    
         }
     }
     ini_close();

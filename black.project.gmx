@@ -112,6 +112,7 @@
     <script>scripts\vibration_gamepad_stop.gml</script>
     <script>scripts\level_transition_gamepad_manager.gml</script>
     <script>scripts\level_transition_draw.gml</script>
+    <script>scripts\twoDigitsCheck_scr.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\default_font</font>
@@ -215,8 +216,8 @@
     <room>rooms\level02</room>
     <room>rooms\level02_end</room>
     <room>rooms\level03_intro</room>
-    <room>rooms\menu_records</room>
     <room>rooms\thanks_for_playing</room>
+    <room>rooms\menu_records</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
