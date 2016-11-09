@@ -11,6 +11,7 @@
     <sound>sound\traffic_light_sound</sound>
     <sound>sound\car_sound</sound>
     <sound>sound\complete_sound</sound>
+    <sound>sound\barks_sound</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\traffic_light_spr</sprite>
@@ -20,9 +21,9 @@
     <sprite>sprites\black_spr</sprite>
     <sprite>sprites\tiles_spr</sprite>
     <sprite>sprites\flag_spr</sprite>
+    <sprite>sprites\dog_0_spr</sprite>
     <sprite>sprites\dog_1_spr</sprite>
     <sprite>sprites\dog_2_spr</sprite>
-    <sprite>sprites\dog_3_spr</sprite>
     <sprite>sprites\cane_spr</sprite>
     <sprite>sprites\critical_zone_spr</sprite>
     <sprite>sprites\gamepad_spr</sprite>
@@ -118,6 +119,9 @@
     <script>scripts\level_transition_gamepad_manager.gml</script>
     <script>scripts\level_transition_draw.gml</script>
     <script>scripts\twoDigitsCheck_scr.gml</script>
+    <script>scripts\dog_barks_sound_setup.gml</script>
+    <script>scripts\dog_barks_sound_manager.gml</script>
+    <script>scripts\dog_collision_with_player.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\default_font</font>
@@ -134,9 +138,9 @@
     <object>objects\traffic_controller_obj</object>
     <object>objects\car_obj</object>
     <object>objects\critical_zone_obj</object>
+    <object>objects\dog_0_obj</object>
     <object>objects\dog_1_obj</object>
     <object>objects\dog_2_obj</object>
-    <object>objects\dog_3_obj</object>
     <objects name="menus">
       <objects name="intro">
         <object>objects\intro_obj</object>
