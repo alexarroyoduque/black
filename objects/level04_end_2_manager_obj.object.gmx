@@ -59,19 +59,19 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>black_char_spr</string>
+            <string>captain_blue_spr</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Black'</string>
+            <string>'Capitán Blue'</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Está empezando a llover. Lo mejor será volver a casa.'</string>
+            <string>'¡Ya estoy aquí! Estaba preparando las cañas de pescar. Mañana voy con Cyan a pescar al lago. Vienes a por comida para peces ¿Verdad? Aquí tienes.'</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>setWhite_color</string>
+            <string>setBlue_color</string>
           </argument>
           <argument>
             <kind>0</kind>

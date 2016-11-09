@@ -59,19 +59,19 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>black_char_spr</string>
+            <string>mr_orange_spr</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Black'</string>
+            <string>'Sr. Orange'</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Está empezando a llover. Lo mejor será volver a casa.'</string>
+            <string>'¿Ya estás hijo? ¿Te acordaste de comprar comida para los peces?'</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>setWhite_color</string>
+            <string>setOrange_color</string>
           </argument>
           <argument>
             <kind>0</kind>

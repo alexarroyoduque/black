@@ -59,19 +59,19 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>black_char_spr</string>
+            <string>red_spr</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Black'</string>
+            <string>'Red'</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Está empezando a llover. Lo mejor será volver a casa.'</string>
+            <string>'Red es el inseparable amigo de Black. En esta ocasión deberás seguir los ladridos de Red para llegar a tu destino. A medida que te acerques escucharás mejor los ladridos de Red.'</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>setWhite_color</string>
+            <string>setRed_color</string>
           </argument>
           <argument>
             <kind>0</kind>

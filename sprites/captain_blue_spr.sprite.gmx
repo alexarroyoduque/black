@@ -20,6 +20,6 @@
   <width>360</width>
   <height>450</height>
   <frames>
-    <frame index="0">images\blue_char_spr_0.png</frame>
+    <frame index="0">images\captain_blue_spr_0.png</frame>
   </frames>
 </sprite>

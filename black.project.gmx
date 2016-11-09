@@ -47,7 +47,7 @@
       <sprite>sprites\violet_spr</sprite>
       <sprite>sprites\mr_orange_spr</sprite>
       <sprite>sprites\cyan_spr</sprite>
-      <sprite>sprites\blue_char_spr</sprite>
+      <sprite>sprites\captain_blue_spr</sprite>
       <sprite>sprites\red_spr</sprite>
     </sprites>
     <sprites name="UI">
@@ -189,6 +189,14 @@
       <object>objects\level02_intro_4_manager_obj</object>
       <object>objects\level02_end_manager_obj</object>
       <object>objects\level03_intro_manager_obj</object>
+      <object>objects\level03_end_manager_obj</object>
+      <object>objects\level04_intro_1_manager_obj</object>
+      <object>objects\level04_intro_2_manager_obj</object>
+      <object>objects\level04_intro_3_manager_obj</object>
+      <object>objects\level04_end_1_manager_obj</object>
+      <object>objects\level04_end_2_manager_obj</object>
+      <object>objects\level04_end_3_manager_obj</object>
+      <object>objects\level05_intro_manager_obj</object>
     </objects>
     <objects name="UI">
       <object>objects\level_progress_obj</object>
@@ -217,6 +225,17 @@
     <room>rooms\level02</room>
     <room>rooms\level02_end</room>
     <room>rooms\level03_intro</room>
+    <room>rooms\level03</room>
+    <room>rooms\level03_end</room>
+    <room>rooms\level04_intro_1</room>
+    <room>rooms\level04_intro_2</room>
+    <room>rooms\level04_intro_3</room>
+    <room>rooms\level04</room>
+    <room>rooms\level04_end_1</room>
+    <room>rooms\level04_end_2</room>
+    <room>rooms\level04_end_3</room>
+    <room>rooms\level05_intro_1</room>
+    <room>rooms\level05</room>
     <room>rooms\thanks_for_playing</room>
     <room>rooms\menu_records</room>
   </rooms>
