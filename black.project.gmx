@@ -20,7 +20,9 @@
     <sprite>sprites\black_spr</sprite>
     <sprite>sprites\tiles_spr</sprite>
     <sprite>sprites\flag_spr</sprite>
-    <sprite>sprites\dog_spr</sprite>
+    <sprite>sprites\dog_1_spr</sprite>
+    <sprite>sprites\dog_2_spr</sprite>
+    <sprite>sprites\dog_3_spr</sprite>
     <sprite>sprites\cane_spr</sprite>
     <sprite>sprites\critical_zone_spr</sprite>
     <sprite>sprites\gamepad_spr</sprite>
@@ -132,7 +134,9 @@
     <object>objects\traffic_controller_obj</object>
     <object>objects\car_obj</object>
     <object>objects\critical_zone_obj</object>
-    <object>objects\dog_obj</object>
+    <object>objects\dog_1_obj</object>
+    <object>objects\dog_2_obj</object>
+    <object>objects\dog_3_obj</object>
     <objects name="menus">
       <objects name="intro">
         <object>objects\intro_obj</object>
