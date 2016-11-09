@@ -224,7 +224,6 @@
     <object>objects\ranking_injector_obj</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\level04</room>
     <room>rooms\intro</room>
     <room>rooms\intro_tutorial</room>
     <room>rooms\menu_main</room>
@@ -244,6 +243,7 @@
     <room>rooms\level04_intro_1</room>
     <room>rooms\level04_intro_2</room>
     <room>rooms\level04_intro_3</room>
+    <room>rooms\level04</room>
     <room>rooms\level04_end_1</room>
     <room>rooms\level04_end_2</room>
     <room>rooms\level04_end_3</room>
