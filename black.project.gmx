@@ -20,6 +20,7 @@
     <sprite>sprites\black_spr</sprite>
     <sprite>sprites\tiles_spr</sprite>
     <sprite>sprites\flag_spr</sprite>
+    <sprite>sprites\dog_spr</sprite>
     <sprite>sprites\cane_spr</sprite>
     <sprite>sprites\critical_zone_spr</sprite>
     <sprite>sprites\gamepad_spr</sprite>
@@ -57,6 +58,7 @@
       <sprite>sprites\hearts_spr</sprite>
       <sprite>sprites\dog_hub_spr</sprite>
     </sprites>
+    <sprite>sprites\sprite35</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\circles_bg</background>
@@ -130,6 +132,7 @@
     <object>objects\traffic_controller_obj</object>
     <object>objects\car_obj</object>
     <object>objects\critical_zone_obj</object>
+    <object>objects\dog_obj</object>
     <objects name="menus">
       <objects name="intro">
         <object>objects\intro_obj</object>
@@ -181,6 +184,7 @@
       <object>objects\vibration_manager</object>
       <object>objects\level_transition_gamepad_manager_obj</object>
       <object>objects\level_manager_obj</object>
+      <object>objects\level_manager_with_dog_obj</object>
       <object>objects\level01_intro_manager_obj</object>
       <object>objects\level01_end_manager_obj</object>
       <object>objects\level02_intro_1_manager_obj</object>
@@ -202,6 +206,7 @@
       <object>objects\level_progress_obj</object>
       <object>objects\timer_obj</object>
       <object>objects\hearts_obj</object>
+      <object>objects\dog_hub_obj</object>
       <object>objects\layer_dark_obj</object>
       <object>objects\layer_blood_obj</object>
       <object>objects\restart_level_obj</object>
@@ -211,6 +216,7 @@
     <object>objects\ranking_injector_obj</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\level04</room>
     <room>rooms\intro</room>
     <room>rooms\intro_tutorial</room>
     <room>rooms\menu_main</room>
@@ -230,7 +236,6 @@
     <room>rooms\level04_intro_1</room>
     <room>rooms\level04_intro_2</room>
     <room>rooms\level04_intro_3</room>
-    <room>rooms\level04</room>
     <room>rooms\level04_end_1</room>
     <room>rooms\level04_end_2</room>
     <room>rooms\level04_end_3</room>
