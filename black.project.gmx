@@ -55,6 +55,7 @@
       <sprite>sprites\progress_bar_bg_spr</sprite>
       <sprite>sprites\progress_bar_fill_spr</sprite>
       <sprite>sprites\hearts_spr</sprite>
+      <sprite>sprites\dog_hub_spr</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
