@@ -12,6 +12,7 @@
     <sound>sound\car_sound</sound>
     <sound>sound\complete_sound</sound>
     <sound>sound\barks_sound</sound>
+    <sound>sound\intro_black_sound</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\traffic_light_spr</sprite>

@@ -57,8 +57,6 @@
     <instance objName="tiles_obj" x="96" y="96" name="inst_716DE676" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="level_manager_with_dog_obj" x="0" y="0" name="inst_B1064312" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="dog_0_obj" x="160" y="512" name="inst_616487A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="736" y="864" name="inst_A2CDFEF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="1280" y="640" name="inst_00DE1A53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="dog_1_obj" x="640" y="704" name="inst_DFD05033" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="dog_2_obj" x="1312" y="640" name="inst_97C0FF0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="flag_obj" x="1312" y="608" name="inst_CAC04CA2" locked="0" code="" scaleX="4" scaleY="4" colour="4294967295" rotation="0"/>
