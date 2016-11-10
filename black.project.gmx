@@ -13,6 +13,7 @@
     <sound>sound\complete_sound</sound>
     <sound>sound\barks_sound</sound>
     <sound>sound\intro_black_sound</sound>
+    <sound>sound\black_dog_barks_sound</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\traffic_light_spr</sprite>
@@ -21,6 +22,7 @@
     <sprite>sprites\layer_blood_spr</sprite>
     <sprite>sprites\black_spr</sprite>
     <sprite>sprites\tiles_spr</sprite>
+    <sprite>sprites\tiles_dog_spr</sprite>
     <sprite>sprites\flag_spr</sprite>
     <sprite>sprites\dog_0_spr</sprite>
     <sprite>sprites\dog_1_spr</sprite>
@@ -135,6 +137,7 @@
     <object>objects\black_obj</object>
     <object>objects\cane_obj</object>
     <object>objects\tiles_obj</object>
+    <object>objects\tiles_dog_obj</object>
     <object>objects\flag_obj</object>
     <object>objects\traffic_controller_obj</object>
     <object>objects\car_obj</object>
