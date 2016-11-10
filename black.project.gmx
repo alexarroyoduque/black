@@ -14,6 +14,7 @@
     <sound>sound\barks_sound</sound>
     <sound>sound\intro_black_sound</sound>
     <sound>sound\black_dog_barks_sound</sound>
+    <sound>sound\city_raining</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\traffic_light_spr</sprite>
@@ -213,6 +214,8 @@
       <object>objects\level04_end_2_manager_obj</object>
       <object>objects\level04_end_3_manager_obj</object>
       <object>objects\level05_intro_manager_obj</object>
+      <object>objects\city_silence_obj</object>
+      <object>objects\city_raining_obj</object>
     </objects>
     <objects name="UI">
       <object>objects\level_progress_obj</object>

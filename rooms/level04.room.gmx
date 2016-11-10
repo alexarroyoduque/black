@@ -60,6 +60,7 @@
     <instance objName="dog_1_obj" x="640" y="704" name="inst_DFD05033" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="dog_2_obj" x="1312" y="640" name="inst_97C0FF0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="flag_obj" x="1312" y="608" name="inst_CAC04CA2" locked="0" code="" scaleX="4" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="city_silence_obj" x="64" y="0" name="inst_DAC4B4E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
