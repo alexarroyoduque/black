@@ -65,7 +65,6 @@
       <sprite>sprites\hearts_spr</sprite>
       <sprite>sprites\dog_hub_spr</sprite>
     </sprites>
-    <sprite>sprites\sprite35</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\circles_bg</background>
@@ -196,7 +195,8 @@
     <objects name="levels">
       <object>objects\vibration_manager</object>
       <object>objects\level_transition_gamepad_manager_obj</object>
-      <object>objects\level_manager_obj</object>
+      <object>objects\level_manager_general_obj</object>
+      <object>objects\level_manager_standard_obj</object>
       <object>objects\level_manager_with_dog_obj</object>
       <object>objects\level01_intro_manager_obj</object>
       <object>objects\level01_end_manager_obj</object>
@@ -247,6 +247,8 @@
     <room>rooms\level03_intro</room>
     <room>rooms\level03</room>
     <room>rooms\level03_end</room>
+    <room>rooms\thanks_for_playing</room>
+    <room>rooms\menu_records</room>
     <room>rooms\level04_intro_1</room>
     <room>rooms\level04_intro_2</room>
     <room>rooms\level04_intro_3</room>
@@ -256,8 +258,6 @@
     <room>rooms\level04_end_3</room>
     <room>rooms\level05_intro_1</room>
     <room>rooms\level05</room>
-    <room>rooms\thanks_for_playing</room>
-    <room>rooms\menu_records</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
