@@ -122,9 +122,9 @@
     <script>scripts\level_transition_gamepad_manager.gml</script>
     <script>scripts\level_transition_draw.gml</script>
     <script>scripts\twoDigitsCheck_scr.gml</script>
+    <script>scripts\dog_collision_with_player.gml</script>
     <script>scripts\dog_barks_sound_setup.gml</script>
     <script>scripts\dog_barks_sound_manager.gml</script>
-    <script>scripts\dog_collision_with_player.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\default_font</font>
@@ -249,10 +249,10 @@
     <room>rooms\level03_end</room>
     <room>rooms\thanks_for_playing</room>
     <room>rooms\menu_records</room>
+    <room>rooms\level04</room>
     <room>rooms\level04_intro_1</room>
     <room>rooms\level04_intro_2</room>
     <room>rooms\level04_intro_3</room>
-    <room>rooms\level04</room>
     <room>rooms\level04_end_1</room>
     <room>rooms\level04_end_2</room>
     <room>rooms\level04_end_3</room>
