@@ -244,10 +244,10 @@
     <room>rooms\level02_intro_4</room>
     <room>rooms\level02</room>
     <room>rooms\level02_end</room>
+    <room>rooms\thanks_for_playing</room>
     <room>rooms\level03_intro</room>
     <room>rooms\level03</room>
     <room>rooms\level03_end</room>
-    <room>rooms\thanks_for_playing</room>
     <room>rooms\menu_records</room>
     <room>rooms\level04</room>
     <room>rooms\level04_intro_1</room>
