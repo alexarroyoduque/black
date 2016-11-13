@@ -54,28 +54,28 @@
     <instance objName="black_obj" x="320" y="1248" name="inst_146FEB5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="64" y="1312" name="inst_B32E0C1B" locked="0" code="" scaleX="12" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="64" y="672" name="inst_7EBB610F" locked="0" code="" scaleX="1" scaleY="20" colour="4294967295" rotation="0"/>
-    <instance objName="tiles_obj" x="64" y="640" name="inst_F6A33B41" locked="0" code="" scaleX="44" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tiles_obj" x="64" y="640" name="inst_F6A33B41" locked="0" code="" scaleX="47" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="flag_obj" x="1696" y="32" name="inst_A9C7FDCE" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="level_manager_standard_obj" x="0" y="0" name="inst_B088E744" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="448" y="1056" name="inst_EA014BF5" locked="0" code="" scaleX="1" scaleY="9" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="1856" y="32" name="inst_3C6D29A8" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="tiles_obj" x="1472" y="640" name="inst_A75BCB07" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="320" y="896" name="inst_EC5224C6" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="352" y="896" name="inst_6422E7B7" locked="0" code="" scaleX="27" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="320" y="1024" name="inst_3FC3EE8E" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tiles_obj" x="1216" y="1088" name="inst_6B8020A8" locked="0" code="" scaleX="19" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tiles_obj" x="1216" y="896" name="inst_6B8020A8" locked="0" code="" scaleX="14" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="traffic_controller_obj" x="576" y="672" name="inst_8883C430" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="critical_zone_obj" x="544" y="672" name="inst_99FD321F" locked="0" code="" scaleX="13" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="1664" y="32" name="inst_6DB5DF2A" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="tiles_obj" x="1216" y="896" name="inst_B83E1C16" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
-    <instance objName="tiles_obj" x="1472" y="896" name="inst_5253B661" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="1600" y="608" name="inst_FF55784D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tiles_obj" x="1632" y="320" name="inst_42A5D27C" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="tiles_obj" x="1568" y="608" name="inst_17F4DA55" locked="0" code="" scaleX="1" scaleY="9" colour="4294967295" rotation="0"/>
-    <instance objName="tiles_obj" x="160" y="736" name="inst_6AA26A2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tiles_obj" x="1824" y="320" name="inst_B1F4CD39" locked="0" code="" scaleX="1" scaleY="13" colour="4294967295" rotation="0"/>
-    <instance objName="tiles_obj" x="1792" y="704" name="inst_26F243FF" locked="0" code="" scaleX="1" scaleY="12" colour="4294967295" rotation="0"/>
+    <instance objName="tiles_obj" x="1824" y="320" name="inst_B1F4CD39" locked="0" code="" scaleX="1" scaleY="14" colour="4294967295" rotation="0"/>
     <instance objName="city_silence_obj" x="96" y="0" name="inst_10143772" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tiles_obj" x="1568" y="640" name="inst_27616E22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tiles_obj" x="1792" y="736" name="inst_C2AA4371" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tiles_obj" x="1760" y="768" name="inst_2B3C9683" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tiles_obj" x="1728" y="800" name="inst_6B138EDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tiles_obj" x="1696" y="832" name="inst_07F89945" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tiles_obj" x="1664" y="864" name="inst_7F7C17BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
