@@ -254,8 +254,8 @@
     <room>rooms\level04_intro_3</room>
     <room>rooms\level04</room>
     <room>rooms\level04_end_1</room>
-    <room>rooms\level04_end_3</room>
     <room>rooms\level04_end_2</room>
+    <room>rooms\level04_end_3</room>
     <room>rooms\level05_intro_1</room>
     <room>rooms\level05</room>
   </rooms>
