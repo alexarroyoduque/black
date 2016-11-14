@@ -82,7 +82,7 @@ for(var i=0; i&lt;positions; i++) {
             <string>if(file_exists("leader_board.sav"))
 {
     var total,
-    date = string(current_year) + "-" + twoDigitsCheck_scr(string(current_month)) + "-" + twoDigitsCheck_scr(string(current_day)),
+    date = twoDigitsCheck_scr(string(current_day) + "/" + twoDigitsCheck_scr(string(current_month)) + "/" + string(current_year)),
     levelMinutesResult,
     levelSecondsResult,
     totalMinutes,
