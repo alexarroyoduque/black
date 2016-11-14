@@ -90,6 +90,7 @@ for(var i=0; i&lt;positions; i++) {
     ini_open("leader_board.sav")
     for(var i = 0; i &lt; 10; i++)
     {   total = ini_read_real(string(i), "total_result", 0);
+        date = ini_read_string(string(i), "result_date", "0");
         if(total &gt; 0)
         {   totalMinutes = twoDigitsCheck_scr(string(total div 60));
             totalSeconds = twoDigitsCheck_scr(string(total mod 60));

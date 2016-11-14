@@ -19,7 +19,8 @@ show_debug_message(ds_map_find_value(levelResults,"seconds"))
 }
 totalSeconds += totalMinutes*60;
 ds_map_add(resultsMap,"total_result",totalSeconds);
-
+var date = string(current_year) + "-" + twoDigitsCheck_scr(string(current_month)) + "-" + twoDigitsCheck_scr(string(current_day));
+ds_map_add(resultsMap,"result_date",date);
 
 ini_open("leader_board.sav");
 for ( i = 0; i <10; i += 1)
@@ -30,8 +31,19 @@ for ( i = 0; i <10; i += 1)
      {
             var originResult = ds_map_find_first(resultsMap);
             var levelMinutesAndSecondsMap = ds_map_find_value(resultsMap,originResult);
-            ini_write_real(string(i),string(originResult)+"-minutes",ds_map_find_value(levelMinutesAndSecondsMap,"minutes"));
-            ini_write_real(string(i),string(originResult)+"-seconds",ds_map_find_value(levelMinutesAndSecondsMap,"seconds"));
+            if(originResult != "total_result" && originResult != "result_date")
+            {
+                ini_write_real(string(i),string(originResult)+"-minutes",ds_map_find_value(levelMinutesAndSecondsMap,"minutes"));
+                ini_write_real(string(i),string(originResult)+"-seconds",ds_map_find_value(levelMinutesAndSecondsMap,"seconds"));
+            }
+            if( originResult == "result_date")
+            {
+                ini_write_string(string(i),string(originResult),levelMinutesAndSecondsMap);
+            }
+            else
+            {
+                ini_write_real(string(i),string(originResult),levelMinutesAndSecondsMap);
+            }
             for (var j = 1; j < ds_map_size(resultsMap); j += 1)
             {  
                 var nextResult = ds_map_find_next(resultsMap, originResult);
@@ -42,11 +54,16 @@ for ( i = 0; i <10; i += 1)
                     show_debug_message(nextResult)
                     show_debug_message("levelMinutesAndSecondsMap")
                     show_debug_message(levelMinutesAndSecondsMap)
-                    if(nextResult != "total_result")
+                    if(nextResult != "total_result" && nextResult != "result_date")
                     {
                         ini_write_real(string(i),string(nextResult)+"-minutes",ds_map_find_value(levelMinutesAndSecondsMap,"minutes"));
                         ini_write_real(string(i),string(nextResult)+"-seconds",ds_map_find_value(levelMinutesAndSecondsMap,"seconds"));
-                    }else
+                    }
+                    if( nextResult == "result_date")
+                    {
+                        ini_write_string(string(i),string(nextResult),levelMinutesAndSecondsMap);
+                    }
+                    else
                     {
                         ini_write_real(string(i),string(nextResult),levelMinutesAndSecondsMap);
                     }
