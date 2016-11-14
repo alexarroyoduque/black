@@ -1,5 +1,68 @@
 # Project Black - changelog
 
+## 0.0.4 - gameMaker
++ Diseño de Black retrato
++ Diseño de Blue retrato
++ Diseño de Orange retrato
++ Diseño de Cyan retrato
++ Diseño de Red retrato
++ Cambio de Rose por Violet
+  + Diseño
+  + En el juego cambiar referencias de Rose por Violet
++ Mejorar imagen que “tapa” el juego → imagen círculos
++ Alargar bastón de Black
+  + 64px de largo
+  + 32px de ancho
++ Cambiar vibración cuando bastón detecta obstáculo a 0,3 o más
++ Previa del nivel 2: tutorial semáforos y coches
++ Cuando un nivel es completado sonará un sonido
++ level-02: Black tiene que llevar fruta a sus vecinos, donde vive su amiga Rose
+  + Coches
+    + Si un coche pilla a Black morirá
+    + Los coches solo avanzan si el semáforo para ellos está en rojo
+    + Sonido
+  + Semáforos
+      + Sonará cuando esté en verde para peatones
+      + Sonará con más intensidad si Black está más cerca
+  + Coches
++ Zona crítica cercana al semáforo
+  + Hacer vibrar el motor izquierdo a 0,1
+  + Al salir de la zona cancelar vibración
++ Pantalla de “gracias por jugar”
++ Juego a pantalla completa
++ Pantalla de instrucciones sobre cómo funciona el juego tras la intro con audio
++ Pausar partida
+  + Posibilidad de abandonar el juego → Girando los dos joysticks hacia abajo
+  + Mensaje básico para indicar cómo abandonar el juego si se desea
++ Al resetear un nivel por muerte, no resetear el tiempo
++ Cambio en la tipografía del timer
++ Sala de records
+  + Transición desde menú principal
+  + Transición desde pantalla “gracias por jugar”
+  + Un record se guarda cuando se completan todos los niveles
+  + Tiempo transcurrido total
+  + Guardar como máximo 10 tiempos y que sean los mejores
+  + Mostrar tiempo total, tiempo en cada nivel y fecha en la que se jugó
+  + Debe ser acumulativo es decir, si en superar el nivel 01 se tardan 2 minutos y en superar el nivel 02 se tardan 3 minutos, el tiempo total serían 5 minutos. Ese tiempo debería almacenarse en alguna parte para mostrar una tabla de clasificación
+    + Mostrar los tiempo ordenados
++ level-03: en versiones posteriores se pulirá
+  + transiciones
+    + Desde la casa de Violet, Black vuelve a la suya. Nivel similar al level-02 pero con lluvia
+    + sonido de lluvia
++ level-04: en versiones posteriores se pulirá
+  + (Nivel sin semáforo) Black tiene que hacer un nuevo recado. Pero en esta ocasión será guiado por su perro Red. El padre de Black (Señor Orange) le dice a Black que hay que comprar comida para los peces. Black tiene que ir a la tienda de animales del capitán Blue a comprar comida la comida. Una vez en la tienda le atenderá Cyan, la nieta de Blue. Cyan buscará a su abuelo y Blue le dará la comida para peces. (pendiente)
+  + En este nivel no se verá barra de progreso y Black escuchará los ladridos de Red para llegar a su destino. Cuando más cerca está Black de su perro con más intensidad se escucharán los ladridos. (pendiente)
+  + Transiciones
++ Mapeado
++ Mecánica de los ladridos del perro
+  + interfaz/hub que sustituye la distancia hasta el destino
+  + Cuanto más cerca está Black de Red, más suenan los ladridos
+  + Cuando Black coge un perro se genera un muro tras él. Este muro es especial y si Black choca con él no le quita vida y suena un audio avisando de que los ladridos no suenan en esa dirección.
++ level-05: en versiones posteriores se pulirá
+  + transiciones
+  + Es el momento de volver a casa por última vez siguiendo los ladridos
+    + Nivel similar al 04 pero con un semáforo
+
 ## 0.0.3 - gameMaker
 
 + Cambiar resolución del proyecto a 1280x720
