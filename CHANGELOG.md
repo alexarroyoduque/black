@@ -50,8 +50,8 @@
     + Desde la casa de Violet, Black vuelve a la suya. Nivel similar al level-02 pero con lluvia
     + sonido de lluvia
 + level-04: en versiones posteriores se pulirá
-  + (Nivel sin semáforo) Black tiene que hacer un nuevo recado. Pero en esta ocasión será guiado por su perro Red. El padre de Black (Señor Orange) le dice a Black que hay que comprar comida para los peces. Black tiene que ir a la tienda de animales del capitán Blue a comprar comida la comida. Una vez en la tienda le atenderá Cyan, la nieta de Blue. Cyan buscará a su abuelo y Blue le dará la comida para peces. (pendiente)
-  + En este nivel no se verá barra de progreso y Black escuchará los ladridos de Red para llegar a su destino. Cuando más cerca está Black de su perro con más intensidad se escucharán los ladridos. (pendiente)
+  + (Nivel sin semáforo) Black tiene que hacer un nuevo recado. Pero en esta ocasión será guiado por su perro Red. El padre de Black (Señor Orange) le dice a Black que hay que comprar comida para los peces. Black tiene que ir a la tienda de animales del capitán Blue a comprar comida la comida. Una vez en la tienda le atenderá Cyan, la nieta de Blue. Cyan buscará a su abuelo y Blue le dará la comida para peces.
+  + En este nivel no se verá barra de progreso y Black escuchará los ladridos de Red para llegar a su destino. Cuando más cerca está Black de su perro con más intensidad se escucharán los ladridos.
   + Transiciones
 + Mapeado
 + Mecánica de los ladridos del perro
