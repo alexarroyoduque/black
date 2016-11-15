@@ -52,7 +52,7 @@ audio_sound_gain(trafficLightSound, 0, 0);
           </argument>
           <argument>
             <kind>0</kind>
-            <string>200</string>
+            <string>-200</string>
           </argument>
         </arguments>
       </action>

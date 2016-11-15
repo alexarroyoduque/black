@@ -140,6 +140,7 @@
     <object>objects\tiles_dog_obj</object>
     <object>objects\flag_obj</object>
     <object>objects\traffic_controller_obj</object>
+    <object>objects\traffic_controller_reverse_obj</object>
     <object>objects\car_obj</object>
     <object>objects\critical_zone_obj</object>
     <object>objects\dog_0_obj</object>
@@ -231,6 +232,7 @@
     <object>objects\ranking_injector_obj</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\level03</room>
     <room>rooms\intro</room>
     <room>rooms\intro_tutorial</room>
     <room>rooms\menu_main</room>
@@ -245,7 +247,6 @@
     <room>rooms\level02</room>
     <room>rooms\level02_end</room>
     <room>rooms\level03_intro</room>
-    <room>rooms\level03</room>
     <room>rooms\level03_end</room>
     <room>rooms\thanks_for_playing</room>
     <room>rooms\menu_records</room>
