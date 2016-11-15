@@ -19,7 +19,7 @@ show_debug_message(ds_map_find_value(levelResults,"seconds"))
 }
 totalSeconds += totalMinutes*60;
 ds_map_add(resultsMap,"total_result",totalSeconds);
-var date = string(current_year) + "-" + twoDigitsCheck_scr(string(current_month)) + "-" + twoDigitsCheck_scr(string(current_day));
+var date = twoDigitsCheck_scr(string(current_day) + "/" + twoDigitsCheck_scr(string(current_month)) + "/" + string(current_year));
 ds_map_add(resultsMap,"result_date",date);
 
 ini_open("leader_board.sav");
