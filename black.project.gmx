@@ -70,6 +70,9 @@
     <background>background\circles_bg</background>
     <background>background\intro_bg</background>
     <background>background\clocks_bg</background>
+    <background>background\rain1</background>
+    <background>background\rain2</background>
+    <background>background\rain3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">

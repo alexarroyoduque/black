@@ -32,9 +32,9 @@
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="circles_bg" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="-1" name="rain1" x="0" y="0" htiled="-1" vtiled="-1" hspeed="-2" vspeed="5" stretch="0"/>
+    <background visible="-1" foreground="-1" name="rain2" x="0" y="0" htiled="-1" vtiled="-1" hspeed="-3" vspeed="6" stretch="0"/>
+    <background visible="-1" foreground="0" name="rain3" x="0" y="0" htiled="-1" vtiled="-1" hspeed="-3" vspeed="4" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
