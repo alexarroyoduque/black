@@ -22,7 +22,7 @@ if (file_exists("leader_board.sav"))
                 ds_map_add(rankedPositionMap,"level0"+string(j)+"-minutes", ini_read_real(string(i),"level0"+string(j)+"-minutes",0));
             }
             //add the info from the position on the main map
-            ds_map_add(recordsTableMap,string(i),rankedPositionMap)
+            ds_map_add_map(recordsTableMap,string(i),rankedPositionMap)
         }           
     }
     return recordsTableMap;

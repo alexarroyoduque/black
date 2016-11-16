@@ -53,7 +53,7 @@ for ( i = 0; i <10; i += 1)
                     ds_map_replace_map(recordsTableMap,string(j+1),resultSubstitutor);
                  }else
                  {
-                    ds_map_add(recordsTableMap,string(j+1),resultSubstitutor);
+                    ds_map_add_map(recordsTableMap,string(j+1),resultSubstitutor);
                  }
                 }              
               
@@ -64,7 +64,7 @@ for ( i = 0; i <10; i += 1)
          }
      }else
      {
-        ds_map_add(recordsTableMap,string(i),resultsMap);
+        ds_map_add_map(recordsTableMap,string(i),resultsMap);
      }
      persist_records_table_scr(recordsTableMap);
      exit
