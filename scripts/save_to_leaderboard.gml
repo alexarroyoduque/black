@@ -42,18 +42,19 @@ for ( i = 0; i <10; i += 1)
     
             //aha! we found a record worse than the players mark, now we need to go through the recordsTableMap on reverse order
             //to push down the rest of the results pe: if the players score is better than score n position 4, now score on position 4 is score 5 and so on
-            for (var j = 8; j > i ; j--)
+            for (var j = 8; j >= i ; j--)
             {
                 //we get the record on the j position and we replace the record on the next position
                 if(ds_map_exists(recordsTableMap,string(j)))
                 {
                  var resultSubstitutor = ds_map_find_value(recordsTableMap,string(j));
-                 if(ds_map_exists(recordsTableMap,string(j+1)))
+                 var nextIndex = j+1;
+                 if(ds_map_exists(recordsTableMap,string(nextIndex)))
                  {
-                    ds_map_replace_map(recordsTableMap,string(j+1),resultSubstitutor);
+                    ds_map_replace_map(recordsTableMap,string(nextIndex),resultSubstitutor);
                  }else
                  {
-                    ds_map_add_map(recordsTableMap,string(j+1),resultSubstitutor);
+                    ds_map_add_map(recordsTableMap,string(nextIndex),resultSubstitutor);
                  }
                 }              
               
@@ -61,14 +62,16 @@ for ( i = 0; i <10; i += 1)
             //finally we replace the old ranked position with the new player scores
             ds_map_replace_map(recordsTableMap,string(i),resultsMap);
             show_debug_message(recordsTableMap);
+            persist_records_table_scr(recordsTableMap);
+            exit
          }
      }else
      {
         ds_map_add_map(recordsTableMap,string(i),resultsMap);
+        persist_records_table_scr(recordsTableMap);
+        exit
      }
-     persist_records_table_scr(recordsTableMap);
-     exit
-
 }
+
 
 
