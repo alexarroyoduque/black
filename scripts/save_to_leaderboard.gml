@@ -51,7 +51,8 @@ for ( i = 0; i <10; i += 1)
                  var nextIndex = j+1;
                  if(ds_map_exists(recordsTableMap,string(nextIndex)))
                  {
-                    ds_map_replace_map(recordsTableMap,string(nextIndex),resultSubstitutor);
+                    ds_map_delete(recordsTableMap,string(nextIndex))
+                    ds_map_add_map(recordsTableMap,string(nextIndex),resultSubstitutor);
                  }else
                  {
                     ds_map_add_map(recordsTableMap,string(nextIndex),resultSubstitutor);
