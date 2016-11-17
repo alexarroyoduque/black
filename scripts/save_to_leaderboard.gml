@@ -42,7 +42,7 @@ for ( i = 0; i <10; i += 1)
     
             //aha! we found a record worse than the players mark, now we need to go through the recordsTableMap on reverse order
             //to push down the rest of the results pe: if the players score is better than score n position 4, now score on position 4 is score 5 and so on
-            for (var j = 8; j >= i ; j--)
+            for (var j = 9; j >= i ; j--)
             {
                 //we get the record on the j position and we replace the record on the next position
                 if(ds_map_exists(recordsTableMap,string(j)))
