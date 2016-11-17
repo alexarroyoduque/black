@@ -1,5 +1,12 @@
 # Project Black - changelog
 
+## 0.0.5 - gameMaker
++ ambio en el sprite de la barra de progreso
++ level-03
+  + mapeado
+  + background de lluvia
+
+
 ## 0.0.4 - gameMaker
 + Diseño de Black retrato
 + Diseño de Blue retrato
