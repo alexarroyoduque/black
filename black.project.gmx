@@ -143,6 +143,7 @@
     <script>scripts\dog_barks_sound_setup.gml</script>
     <script>scripts\dog_barks_sound_manager.gml</script>
     <script>scripts\hit_layer_script.gml</script>
+    <script>scripts\dialog_script.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\default_font</font>
@@ -217,22 +218,33 @@
       <object>objects\level_manager_general_obj</object>
       <object>objects\level_manager_standard_obj</object>
       <object>objects\level_manager_with_dog_obj</object>
-      <object>objects\level01_intro_manager_obj</object>
-      <object>objects\level01_end_manager_obj</object>
-      <object>objects\level02_intro_1_manager_obj</object>
-      <object>objects\level02_intro_2_manager_obj</object>
-      <object>objects\level02_intro_3_manager_obj</object>
-      <object>objects\level02_intro_4_manager_obj</object>
-      <object>objects\level02_end_manager_obj</object>
-      <object>objects\level03_intro_manager_obj</object>
-      <object>objects\level03_end_manager_obj</object>
-      <object>objects\level04_intro_1_manager_obj</object>
-      <object>objects\level04_intro_2_manager_obj</object>
-      <object>objects\level04_intro_3_manager_obj</object>
-      <object>objects\level04_end_1_manager_obj</object>
-      <object>objects\level04_end_2_manager_obj</object>
-      <object>objects\level04_end_3_manager_obj</object>
-      <object>objects\level05_intro_manager_obj</object>
+      <objects name="level01">
+        <object>objects\level01_intro_manager_obj</object>
+        <object>objects\level01_dialog</object>
+        <object>objects\level01_end_manager_obj</object>
+      </objects>
+      <objects name="level02">
+        <object>objects\level02_intro_1_manager_obj</object>
+        <object>objects\level02_intro_3_manager_obj</object>
+        <object>objects\level02_intro_2_manager_obj</object>
+        <object>objects\level02_intro_4_manager_obj</object>
+        <object>objects\level02_end_manager_obj</object>
+      </objects>
+      <objects name="level03">
+        <object>objects\level03_intro_manager_obj</object>
+        <object>objects\level03_end_manager_obj</object>
+      </objects>
+      <objects name="level04">
+        <object>objects\level04_intro_1_manager_obj</object>
+        <object>objects\level04_intro_2_manager_obj</object>
+        <object>objects\level04_intro_3_manager_obj</object>
+        <object>objects\level04_end_1_manager_obj</object>
+        <object>objects\level04_end_2_manager_obj</object>
+        <object>objects\level04_end_3_manager_obj</object>
+      </objects>
+      <objects name="level05">
+        <object>objects\level05_intro_manager_obj</object>
+      </objects>
       <object>objects\city_silence_obj</object>
       <object>objects\city_raining_obj</object>
     </objects>
