@@ -64,6 +64,7 @@
       <sprite>sprites\progress_bar_fill_spr</sprite>
       <sprite>sprites\hearts_spr</sprite>
       <sprite>sprites\dog_hub_spr</sprite>
+      <sprite>sprites\health_spr</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -228,7 +229,7 @@
     <objects name="UI">
       <object>objects\level_progress_obj</object>
       <object>objects\timer_obj</object>
-      <object>objects\hearts_obj</object>
+      <object>objects\health_obj</object>
       <object>objects\dog_hub_obj</object>
       <object>objects\layer_dark_obj</object>
       <object>objects\layer_blood_obj</object>
@@ -239,12 +240,12 @@
     <object>objects\ranking_injector_obj</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\level01</room>
     <room>rooms\intro</room>
     <room>rooms\intro_tutorial</room>
     <room>rooms\menu_main</room>
     <room>rooms\tutorial</room>
     <room>rooms\level01_intro</room>
-    <room>rooms\level01</room>
     <room>rooms\level01_end</room>
     <room>rooms\level02_intro_1</room>
     <room>rooms\level02_intro_2</room>

@@ -29,7 +29,7 @@
 var yPosition = view_yview[0] + y;
 
 with(black_obj) {
-    draw_sprite(hearts_spr, black_obj.health, xPosition, yPosition);
+    draw_sprite(health_spr, black_obj.health, xPosition, yPosition);
 }
 </string>
           </argument>

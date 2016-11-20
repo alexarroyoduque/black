@@ -4,7 +4,7 @@ if (place_meeting(x+hspeed,y, car_obj) || place_meeting(x,y+vspeed,car_obj)) {
     vspeed=0;
 
     health = 0;
-    hearts_obj.image_index = health;
+    health_obj.image_index = health;
     instance_create(0, 0, layer_blood_obj);
     instance_create(0, 0, hit_by_car_message_obj);
 }

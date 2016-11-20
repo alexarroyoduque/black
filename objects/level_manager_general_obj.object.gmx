@@ -75,7 +75,7 @@ gamepadDelay = 0;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>false</string>
+            <string>true</string>
           </argument>
         </arguments>
       </action>
@@ -311,7 +311,7 @@ gamepadDelay = 0;
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>hearts_obj</object>
+            <object>health_obj</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -343,11 +343,11 @@ gamepadDelay = 0;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>650</string>
+            <string>950</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>180</string>
+            <string>120</string>
           </argument>
         </arguments>
       </action>
