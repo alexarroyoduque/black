@@ -61,7 +61,8 @@ for ( i = 0; i <10; i += 1)
               
             }
             //finally we replace the old ranked position with the new player scores
-            ds_map_replace_map(recordsTableMap,string(i),resultsMap);
+            ds_map_delete(recordsTableMap,string(i))
+            ds_map_add_map(recordsTableMap,string(i),resultsMap);
             show_debug_message(recordsTableMap);
             persist_records_table_scr(recordsTableMap);
             exit

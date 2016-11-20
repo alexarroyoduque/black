@@ -58,7 +58,6 @@
     <instance objName="records_gamepad_manager_obj" x="0" y="0" name="inst_5C09493A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="title_records_text" x="640" y="50" name="inst_AE5AECA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="records_table_obj" x="0" y="32" name="inst_C0F86CFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ranking_injector_obj" x="64" y="64" name="inst_679CA380" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
