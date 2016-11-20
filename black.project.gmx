@@ -66,6 +66,12 @@
       <sprite>sprites\dog_hub_spr</sprite>
       <sprite>sprites\health_spr</sprite>
     </sprites>
+    <sprites name="hit-layer">
+      <sprite>sprites\hit_top_spr</sprite>
+      <sprite>sprites\hit_bottom_spr</sprite>
+      <sprite>sprites\hit_right_spr</sprite>
+      <sprite>sprites\hit_left_spr</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\circles_bg</background>
@@ -133,6 +139,7 @@
     <script>scripts\dog_collision_with_player.gml</script>
     <script>scripts\dog_barks_sound_setup.gml</script>
     <script>scripts\dog_barks_sound_manager.gml</script>
+    <script>scripts\hit_layer_script.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\default_font</font>
@@ -233,6 +240,10 @@
       <object>objects\dog_hub_obj</object>
       <object>objects\layer_dark_obj</object>
       <object>objects\layer_blood_obj</object>
+      <object>objects\hit_left_obj</object>
+      <object>objects\hit_right_obj</object>
+      <object>objects\hit_top_obj</object>
+      <object>objects\hit_bottom_obj</object>
       <object>objects\restart_level_obj</object>
       <object>objects\hit_by_car_message_obj</object>
       <object>objects\pause_message_obj</object>

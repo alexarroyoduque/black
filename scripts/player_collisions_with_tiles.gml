@@ -1,5 +1,6 @@
 //collisions
 if (place_meeting(x+hspeed,y,tiles_obj)) {
+    var lastSpeedH = hspeed;
     hspeed=0;
     if (!invulnerable) {
         audio_sound_gain(ouch_sound, 0.2, 1);
@@ -8,11 +9,18 @@ if (place_meeting(x+hspeed,y,tiles_obj)) {
         health--;
         alarm[1] = room_speed*2;
         health_obj.image_index = health;
+        
+        if (lastSpeedH < 0) {
+            instance_create(0, 0, hit_left_obj);
+        } else {
+            instance_create(0, 0, hit_right_obj);
+        }
     }
-    instance_create(0, 0, layer_blood_obj);
+
 }
 
 if (place_meeting(x,y+vspeed,tiles_obj)) {
+    var lastSpeedV = vspeed;
     vspeed=0;
     if (!invulnerable) {
         audio_sound_gain(ouch_sound, 1, 1);
@@ -21,6 +29,10 @@ if (place_meeting(x,y+vspeed,tiles_obj)) {
         health--;
         alarm[1] = room_speed*2;
         health_obj.image_index = health;
+        if (lastSpeedV < 0) {
+            instance_create(0, 0, hit_top_obj);
+        } else {
+            instance_create(0, 0, hit_bottom_obj);
+        }
     }
-    instance_create(0, 0, layer_blood_obj);
 }
