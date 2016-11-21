@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>level_manager_general_obj</object>
+            <object>level_manager_controller_obj</object>
           </argument>
           <argument>
             <kind>0</kind>

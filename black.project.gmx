@@ -215,7 +215,7 @@
     <objects name="levels">
       <object>objects\vibration_manager</object>
       <object>objects\level_transition_gamepad_manager_obj</object>
-      <object>objects\level_manager_general_obj</object>
+      <object>objects\level_manager_controller_obj</object>
       <object>objects\level_manager_standard_obj</object>
       <object>objects\level_manager_with_dog_obj</object>
       <objects name="level01">
