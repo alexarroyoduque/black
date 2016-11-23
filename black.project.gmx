@@ -31,6 +31,7 @@
     <sprite>sprites\cane_spr</sprite>
     <sprite>sprites\critical_zone_spr</sprite>
     <sprite>sprites\gamepad_spr</sprite>
+    <sprite>sprites\phantom_wall_spr</sprite>
     <sprites name="joysticks">
       <sprites name="left">
         <sprite>sprites\joystick_left_up_spr</sprite>

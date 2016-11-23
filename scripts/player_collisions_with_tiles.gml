@@ -1,7 +1,14 @@
 //collisions
-if (place_meeting(x+hspeed,y,tiles_obj)) {
+var tilesCollisionXId =instance_place(x+hspeed,y,tiles_obj);
+if (tilesCollisionXId) {
     var lastSpeedH = hspeed;
     hspeed=0;
+    with(tilesCollisionXId)
+    {
+        sprite_index = phantom_wall_spr;
+        depth= -100
+    }
+
     if (!invulnerable) {
         audio_sound_gain(ouch_sound, 0.2, 1);
         audio_play_sound(ouch_sound, 0, false);
@@ -19,9 +26,15 @@ if (place_meeting(x+hspeed,y,tiles_obj)) {
 
 }
 
-if (place_meeting(x,y+vspeed,tiles_obj)) {
+var tilesCollisionYId =instance_place(x,y+vspeed,tiles_obj);
+if (tilesCollisionYId) {
     var lastSpeedV = vspeed;
     vspeed=0;
+    with(tilesCollisionYId)
+    {
+        sprite_index = phantom_wall_spr;
+        depth= -100
+    }
     if (!invulnerable) {
         audio_sound_gain(ouch_sound, 1, 1);
         audio_play_sound(ouch_sound, 0, false);
