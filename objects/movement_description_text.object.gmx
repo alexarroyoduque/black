@@ -90,7 +90,7 @@
           <argument>
             <kind>1</kind>
             <string>draw_text_ext(x, y,
-    'Durante la aventura no verás el mapeado del nivel. Utiliza el bastón para detectar los obstáculos.',
+    'Utiliza el joystick izquierdo para desplazarte y llegar hasta la bandera.',
     30, 400);
 </string>
           </argument>

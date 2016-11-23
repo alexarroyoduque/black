@@ -17,34 +17,38 @@
     <sound>sound\city_raining</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\traffic_light_spr</sprite>
-    <sprite>sprites\car_bottom_spr</sprite>
-    <sprite>sprites\layer_dark_spr</sprite>
-    <sprite>sprites\layer_blood_spr</sprite>
-    <sprite>sprites\black_spr</sprite>
-    <sprite>sprites\tiles_spr</sprite>
-    <sprite>sprites\tiles_dog_spr</sprite>
-    <sprite>sprites\flag_spr</sprite>
-    <sprite>sprites\dog_0_spr</sprite>
-    <sprite>sprites\dog_1_spr</sprite>
-    <sprite>sprites\dog_2_spr</sprite>
-    <sprite>sprites\cane_spr</sprite>
-    <sprite>sprites\critical_zone_spr</sprite>
+    <sprites name="level-elements">
+      <sprite>sprites\black_spr</sprite>
+      <sprite>sprites\cane_spr</sprite>
+      <sprite>sprites\car_bottom_spr</sprite>
+      <sprite>sprites\layer_dark_spr</sprite>
+      <sprite>sprites\traffic_light_spr</sprite>
+      <sprite>sprites\critical_zone_spr</sprite>
+      <sprite>sprites\tiles_spr</sprite>
+      <sprite>sprites\tiles_dog_spr</sprite>
+      <sprite>sprites\phantom_wall_spr</sprite>
+      <sprite>sprites\flag_spr</sprite>
+      <sprite>sprites\dog_0_spr</sprite>
+      <sprite>sprites\dog_1_spr</sprite>
+      <sprite>sprites\dog_2_spr</sprite>
+    </sprites>
     <sprite>sprites\gamepad_spr</sprite>
-    <sprite>sprites\phantom_wall_spr</sprite>
     <sprites name="joysticks">
       <sprites name="left">
+        <sprite>sprites\joystick_left_alone_spr</sprite>
         <sprite>sprites\joystick_left_up_spr</sprite>
-        <sprite>sprites\joystick_left_4_directions_spr</sprite>
+        <sprite>sprites\joystick_left_standby</sprite>
         <sprite>sprites\joystick_left_up_fixed_spr</sprite>
         <sprite>sprites\joystick_left_right_fixed</sprite>
       </sprites>
       <sprites name="right">
+        <sprite>sprites\joystick_right_alone_spr</sprite>
         <sprite>sprites\joystick_right_standby_spr</sprite>
         <sprite>sprites\joystick_right_up_fixed_spr</sprite>
         <sprite>sprites\joystick_right_right_fixed</sprite>
         <sprite>sprites\joystick_right_down_fixed</sprite>
       </sprites>
+      <sprite>sprites\joystick_empty_spr</sprite>
     </sprites>
     <sprites name="characters">
       <sprite>sprites\mrs_yellow_spr</sprite>
@@ -62,6 +66,7 @@
     <sprites name="UI">
       <sprite>sprites\progress_bar_border_spr</sprite>
       <sprite>sprites\progress_bar_bg_spr</sprite>
+      <sprite>sprites\layer_blood_spr</sprite>
       <sprite>sprites\progress_bar_fill_spr</sprite>
       <sprite>sprites\hearts_spr</sprite>
       <sprite>sprites\dog_hub_spr</sprite>
@@ -75,6 +80,12 @@
       <sprite>sprites\hit_right_spr</sprite>
       <sprite>sprites\hit_left_spr</sprite>
     </sprites>
+    <sprites name="tutorial">
+      <sprite>sprites\tile_tutorial_spr</sprite>
+      <sprite>sprites\black_tutorial_sprr</sprite>
+      <sprite>sprites\flag_tutorial_spr</sprite>
+      <sprite>sprites\arrow_tutorial_spr</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\circles_bg</background>
@@ -84,7 +95,11 @@
     <background>background\rain2</background>
     <background>background\rain3</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\arrow_tutorial_path</path>
+    <path>paths\joystick_circle_path</path>
+    <path>paths\joystick_up_path</path>
+  </paths>
   <scripts name="scripts">
     <scripts name="font-colors">
       <script>scripts\setPrimary_color.gml</script>
@@ -154,18 +169,20 @@
     <font>fonts\special_font</font>
   </fonts>
   <objects name="objects">
-    <object>objects\black_obj</object>
-    <object>objects\cane_obj</object>
-    <object>objects\tiles_obj</object>
-    <object>objects\tiles_dog_obj</object>
-    <object>objects\flag_obj</object>
-    <object>objects\traffic_controller_obj</object>
-    <object>objects\traffic_controller_reverse_obj</object>
-    <object>objects\car_obj</object>
-    <object>objects\critical_zone_obj</object>
-    <object>objects\dog_0_obj</object>
-    <object>objects\dog_1_obj</object>
-    <object>objects\dog_2_obj</object>
+    <objects name="level-elements">
+      <object>objects\black_obj</object>
+      <object>objects\cane_obj</object>
+      <object>objects\tiles_obj</object>
+      <object>objects\tiles_dog_obj</object>
+      <object>objects\flag_obj</object>
+      <object>objects\critical_zone_obj</object>
+      <object>objects\car_obj</object>
+      <object>objects\traffic_controller_reverse_obj</object>
+      <object>objects\traffic_controller_obj</object>
+      <object>objects\dog_0_obj</object>
+      <object>objects\dog_1_obj</object>
+      <object>objects\dog_2_obj</object>
+    </objects>
     <objects name="menus">
       <objects name="intro">
         <object>objects\intro_obj</object>
@@ -179,12 +196,18 @@
         <object>objects\exit_text</object>
       </objects>
       <objects name="tutorial">
+        <object>objects\tile_tutorial_obj</object>
+        <object>objects\black_tutorial_obj</object>
+        <object>objects\flag_tutorial_obj</object>
+        <object>objects\arrow_tutorial_obj</object>
         <object>objects\tutorial_gamepad_manager_obj</object>
+        <object>objects\tutorial_movement_gamepad_manager_obj</object>
         <object>objects\movement_text</object>
+        <object>objects\movement_description_text</object>
         <object>objects\cane_text</object>
         <object>objects\back_text</object>
         <object>objects\continue_text</object>
-        <object>objects\cane2_text</object>
+        <object>objects\cane_vibration_text</object>
         <object>objects\target_tutorial_text</object>
       </objects>
       <objects name="records">
@@ -193,12 +216,15 @@
         <object>objects\records_table_obj</object>
       </objects>
       <objects name="joysticks">
-        <object>objects\joystick_left_up_obj</object>
-        <object>objects\joystick_right_standby</object>
+        <object>objects\joystick_empty_obj</object>
+        <object>objects\joystick_left_movement_obj</object>
+        <object>objects\joystick_left_play_obj</object>
+        <object>objects\joystick_left_alone_fixed_obj</object>
+        <object>objects\joystick_righ_alone_fixed_obj</object>
+        <object>objects\joystick_left_cane_obj</object>
         <object>objects\joystick_left_right_fixed_obj</object>
         <object>objects\joystick_right_up_fixed</object>
         <object>objects\joystick_left_up_fixed_obj</object>
-        <object>objects\joystick_left_4_directions_obj</object>
         <object>objects\joystick_right_right_fixed_obj</object>
       </objects>
       <objects name="thanks_for_playing">
@@ -272,7 +298,8 @@
     <room>rooms\intro</room>
     <room>rooms\intro_tutorial</room>
     <room>rooms\menu_main</room>
-    <room>rooms\tutorial</room>
+    <room>rooms\tutorial_movement</room>
+    <room>rooms\tutorial_cane</room>
     <room>rooms\level01_intro</room>
     <room>rooms\level01</room>
     <room>rooms\level01_end</room>

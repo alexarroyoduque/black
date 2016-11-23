@@ -1,7 +1,7 @@
 a = clamp(a + (fade * fadeFactor),0,1);
 
 if (a == 1) {
-    if(room > 3)
+    if(room > 4)
     {
         script_execute(save_room_time());
     }
