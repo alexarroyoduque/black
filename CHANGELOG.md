@@ -1,5 +1,28 @@
 # Project Black - changelog
 
+## 0.0.6 - gameMaker
++ Cuando Black recibe un impacto colorear en rojo el borde de la pantalla que indica la dirección en la que ha golpeado en lugar de toda la pantalla en rojo
+  + diseño en cada dirección
+  + programación
++ La vista de la ciudad lateral parece dar una sensación extraña en cuanto a la perspectiva en la que se mueve el jugador.
+  + Hacer una vista desde arriba sería la mejor alternativa pero se puesto en su lugar un conjunto de casillas como si fueran las secciones de un mapa
++ Revisar hub del juego: No termina de quedar claro que cuando pierdes un corazón no es una vida en sí, sino que has perdido salud
+  + Sprite de vida circular
+  + Cambiado también el sprite del progreso hasta la bandera
++ Brújula: servirá como sistema de orientación
+  + Dibujar una estática en el mapa
+  + Dibujar otra que servirá para ubicar la dirección en la que se está moviendo Black
++ Otra pantalla de tutorial que muestre como se mueve Black por el mapa
++ Cuando el bastón de Black toque un obstáculo resaltarlo en el mapa
++ Más feedback durante la partida, por ejemplo con algún comentario del estilo: “La frutería se encuentra al norte de la ciudad”.
+  + level01
++ Rehacer niveles para que no sea un camino cerrado
+  + level01: fácil
++ Bug sala de records
+  + cada vez que se entra duplica el último tiempo
+  + si se hace un tiempo mejor al último que haya el juego de rompe
+
+
 ## 0.0.5 - gameMaker
 + ambio en el sprite de la barra de progreso
 + level-03
