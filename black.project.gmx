@@ -255,6 +255,7 @@
         <object>objects\level02_intro_3_manager_obj</object>
         <object>objects\level02_intro_2_manager_obj</object>
         <object>objects\level02_intro_4_manager_obj</object>
+        <object>objects\level02_dialog</object>
         <object>objects\level02_end_manager_obj</object>
       </objects>
       <objects name="level03">
