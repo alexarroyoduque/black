@@ -18,6 +18,20 @@
     <sounds name="level-transitions">
       <sound>sound\level02_end_sound</sound>
       <sound>sound\level01_intro_sound</sound>
+      <sound>sound\level02_intro_1_sound</sound>
+      <sound>sound\level02_intro_2_sound</sound>
+      <sound>sound\level02_intro_3_sound</sound>
+      <sound>sound\level02_intro_4_sound</sound>
+      <sound>sound\level03_intro_sound</sound>
+      <sound>sound\level03_end_sound</sound>
+    </sounds>
+    <sounds name="level-dialogs">
+      <sound>sound\level01_dialog_sound</sound>
+      <sound>sound\level02_dialog_sound</sound>
+      <sound>sound\level03_dialog_sound</sound>
+    </sounds>
+    <sounds name="tutorial">
+      <sound>sound\tutorial_movement_sound</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -206,6 +220,7 @@
         <object>objects\arrow_tutorial_obj</object>
         <object>objects\tutorial_gamepad_manager_obj</object>
         <object>objects\tutorial_movement_gamepad_manager_obj</object>
+        <object>objects\tutorial_movement_sound_obj</object>
         <object>objects\movement_text</object>
         <object>objects\movement_description_text</object>
         <object>objects\cane_text</object>
@@ -256,14 +271,15 @@
       </objects>
       <objects name="level02">
         <object>objects\level02_intro_1_manager_obj</object>
-        <object>objects\level02_intro_3_manager_obj</object>
         <object>objects\level02_intro_2_manager_obj</object>
+        <object>objects\level02_intro_3_manager_obj</object>
         <object>objects\level02_intro_4_manager_obj</object>
         <object>objects\level02_dialog</object>
         <object>objects\level02_end_manager_obj</object>
       </objects>
       <objects name="level03">
         <object>objects\level03_intro_manager_obj</object>
+        <object>objects\level03_dialog</object>
         <object>objects\level03_end_manager_obj</object>
       </objects>
       <objects name="level04">

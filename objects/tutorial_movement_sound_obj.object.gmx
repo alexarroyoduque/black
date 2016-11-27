@@ -11,28 +11,24 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>201</id>
+        <id>211</id>
         <kind>0</kind>
-        <userelative>-1</userelative>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
+        <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
+        <functionname>action_sound</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>10</kind>
-            <object>level_transition_gamepad_manager_obj</object>
+            <kind>6</kind>
+            <sound>tutorial_movement_sound</sound>
           </argument>
           <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
+            <kind>3</kind>
             <string>0</string>
           </argument>
         </arguments>
@@ -55,49 +51,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-1</sound>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>601</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_execute_script</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>9</kind>
-            <script>level_transition_draw</script>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>red_spr</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>'Red'</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>'Red es el inseparable amigo de Black. En esta ocasión deberás seguir los ladridos de Red para llegar a tu destino. A medida que te acerques escucharás mejor los ladridos de Red.'</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>setRed_color</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
+            <sound>tutorial_movement_sound</sound>
           </argument>
         </arguments>
       </action>

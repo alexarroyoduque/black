@@ -77,6 +77,7 @@
     <instance objName="arrow_tutorial_obj" x="704" y="608" name="inst_DF425C17" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="2030043135" rotation="0"/>
     <instance objName="joystick_empty_obj" x="448" y="384" name="inst_ACD2D7C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="joystick_left_movement_obj" x="448" y="384" name="inst_AB0995D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tutorial_movement_sound_obj" x="32" y="32" name="inst_15A9B05B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
