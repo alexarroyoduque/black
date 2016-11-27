@@ -15,6 +15,10 @@
     <sound>sound\intro_black_sound</sound>
     <sound>sound\black_dog_barks_sound</sound>
     <sound>sound\city_raining</sound>
+    <sounds name="level-transitions">
+      <sound>sound\level02_end_sound</sound>
+      <sound>sound\level01_intro_sound</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="level-elements">

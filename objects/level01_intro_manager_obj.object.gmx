@@ -77,6 +77,30 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>211</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>level01_intro_sound</sound>
+          </argument>
+          <argument>
+            <kind>3</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="8" enumb="0">
       <action>
@@ -107,7 +131,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Hijo, ¿Puedes ayudarme? Necesito que vayas a la frutería. Quedé con el señor Green en que me apartaría unas ricas fresas. Al volver pásate por la casa de tu amiga Violet y les dejamos algunas fresas a los vecinos.'</string>
+            <string>'Hijo, ¿Puedes ayudarme? Necesito que vayas a la frutería. Le dije al señor Green que me apartase unas ricas fresas. Al volver pásate por la casa de tu amiga Violet y les dejamos algunas fresas a los vecinos.'</string>
           </argument>
           <argument>
             <kind>0</kind>
