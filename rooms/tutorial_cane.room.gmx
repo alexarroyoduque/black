@@ -53,21 +53,22 @@
   <instances>
     <instance objName="gamepad_obj" x="640" y="400" name="inst_4BBA3680" locked="0" code="" scaleX="1.10000002384186" scaleY="1.10000002384186" colour="4294967295" rotation="0"/>
     <instance objName="gamepad_obj" x="192" y="128" name="inst_12C73756" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="cane_vibration_text" x="640" y="512" name="inst_2684D49C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="joystick_left_up_fixed_obj" x="128" y="128" name="inst_8237C0D4" locked="0" code="" scaleX="0.300000011920929" scaleY="-0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="joystick_right_up_fixed" x="256" y="128" name="inst_14D5AE9F" locked="0" code="" scaleX="0.300000011920929" scaleY="-0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="gamepad_obj" x="1088" y="128" name="inst_8B08D888" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="joystick_right_up_fixed" x="1152" y="128" name="inst_C3AC617D" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="joystick_left_up_fixed_obj" x="1024" y="128" name="inst_3DC2ECC6" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="continue_text" x="1088" y="32" name="inst_37058FC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="back_text" x="96" y="32" name="inst_854FD14C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tutorial_gamepad_manager_obj" x="16" y="16" name="inst_8F026C3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="target_tutorial_text" x="640" y="96" name="inst_A400D8EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="target_tutorial_text" x="608" y="96" name="inst_A400D8EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="joystick_empty_obj" x="448" y="384" name="inst_3CE46312" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="joystick_empty_obj" x="832" y="384" name="inst_2152E1A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="joystick_left_alone_fixed_obj" x="448" y="384" name="inst_3BA47EC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="joystick_left_cane_obj" x="832" y="384" name="inst_2C2175F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tutorial_cane_1_sound_obj" x="256" y="32" name="inst_A5D67F13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="black_tutorial_obj" x="640" y="608" name="inst_D8C2C195" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tile_tutorial_obj" x="736" y="672" name="inst_4ABB0974" locked="0" code="" scaleX="-6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tile_tutorial_obj" x="544" y="544" name="inst_E77CA7FE" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="tile_tutorial_obj" x="544" y="512" name="inst_B873611D" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tile_tutorial_obj" x="704" y="544" name="inst_66B8CDB4" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="vibration_manager" x="576" y="544" name="inst_96B781BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

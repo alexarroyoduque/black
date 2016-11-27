@@ -1,5 +1,7 @@
-//cane mechanics
-if (global.padIndex != -1)
+///caneMechanics(caneObject)
+var caneObject = argument0;
+
+if (global.padIndex != -1 && !is_undefined(caneObject))
 {
     //takes directions from the right pad
     var h_point = gamepad_axis_value(global.padIndex, gp_axisrh);
@@ -11,10 +13,10 @@ if (global.padIndex != -1)
      {
         
         //if cane doesn't exists, creates the obj pointing to the player direction
-        if !instance_exists(cane_obj)
+        if !instance_exists(caneObject)
         {
            
-            with (instance_create(x, y, cane_obj))
+            with (instance_create(x, y, caneObject))
             {
             show_debug_message('crea el baston');
                 speed = 0;
@@ -25,7 +27,7 @@ if (global.padIndex != -1)
         //if it exists moves the cane
         else
         {
-            with(cane_obj)
+            with(caneObject)
             {
                 x = other.x + lengthdir_x(14, pdir);
                 y = other.y + lengthdir_y(14, pdir);
@@ -38,10 +40,10 @@ if (global.padIndex != -1)
     //if both axis are equal to 0 the cane its removed
    if ( ((h_point == 0) && (v_point == 0)))
     {
-        if instance_exists(cane_obj)
+        if instance_exists(caneObject)
         {
 
-          with (cane_obj)
+          with (caneObject)
           {
           show_debug_message('destruye el baston');
             instance_destroy();
