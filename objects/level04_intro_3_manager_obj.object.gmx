@@ -37,6 +37,30 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>211</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>level04_intro_3_sound</sound>
+          </argument>
+          <argument>
+            <kind>3</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="7" enumb="5">
       <action>
@@ -55,7 +79,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-1</sound>
+            <sound>level04_intro_3_sound</sound>
           </argument>
         </arguments>
       </action>
@@ -89,7 +113,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Red es el inseparable amigo de Black. En esta ocasión deberás seguir los ladridos de Red para llegar a tu destino. A medida que te acerques escucharás mejor los ladridos de Red.'</string>
+            <string>'Red es mi inseparable amigo. En esta ocasión seguiré sus ladridos para llegar a mi destino. Cuanto más cerca esté de Red, mejor le escucharé.'</string>
           </argument>
           <argument>
             <kind>0</kind>
