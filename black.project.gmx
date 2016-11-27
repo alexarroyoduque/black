@@ -36,6 +36,8 @@
     </sounds>
     <sounds name="tutorial">
       <sound>sound\tutorial_movement_sound</sound>
+      <sound>sound\tutorial_cane_1_sound</sound>
+      <sound>sound\tutorial_cane_2_sound</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -225,6 +227,8 @@
         <object>objects\tutorial_gamepad_manager_obj</object>
         <object>objects\tutorial_movement_gamepad_manager_obj</object>
         <object>objects\tutorial_movement_sound_obj</object>
+        <object>objects\tutorial_cane_1_sound_obj</object>
+        <object>objects\tutorial_cane_2_sound_obj</object>
         <object>objects\movement_text</object>
         <object>objects\movement_description_text</object>
         <object>objects\cane_text</object>

@@ -60,13 +60,14 @@
     <instance objName="joystick_right_up_fixed" x="1152" y="128" name="inst_C3AC617D" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="joystick_left_up_fixed_obj" x="1024" y="128" name="inst_3DC2ECC6" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="continue_text" x="1088" y="32" name="inst_37058FC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="back_text" x="192" y="32" name="inst_854FD14C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="back_text" x="96" y="32" name="inst_854FD14C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tutorial_gamepad_manager_obj" x="16" y="16" name="inst_8F026C3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="target_tutorial_text" x="640" y="96" name="inst_A400D8EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="joystick_empty_obj" x="448" y="384" name="inst_3CE46312" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="joystick_empty_obj" x="832" y="384" name="inst_2152E1A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="joystick_left_alone_fixed_obj" x="448" y="384" name="inst_3BA47EC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="joystick_left_cane_obj" x="832" y="384" name="inst_2C2175F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tutorial_cane_1_sound_obj" x="256" y="32" name="inst_A5D67F13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
