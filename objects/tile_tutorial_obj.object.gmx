@@ -53,6 +53,7 @@
             <kind>1</kind>
             <string>image_index=0;
 depth = 0;
+visible= false;
 isAnimated = false;
 </string>
           </argument>
