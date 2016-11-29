@@ -79,7 +79,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-1</sound>
+            <sound>level04_end_2_sound</sound>
           </argument>
         </arguments>
       </action>
