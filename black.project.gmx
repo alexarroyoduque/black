@@ -17,6 +17,7 @@
     <sound>sound\city_raining</sound>
     <sounds name="level-transitions">
       <sound>sound\level01_intro_sound</sound>
+      <sound>sound\level01_end_sound</sound>
       <sound>sound\level02_end_sound</sound>
       <sound>sound\level02_intro_1_sound</sound>
       <sound>sound\level02_intro_2_sound</sound>
@@ -26,6 +27,7 @@
       <sound>sound\level03_end_sound</sound>
       <sound>sound\level04_intro_2_sound</sound>
       <sound>sound\level04_intro_3_sound</sound>
+      <sound>sound\level04_end_2_sound</sound>
       <sound>sound\level04_end_3_sound</sound>
       <sound>sound\level05_intro_sound</sound>
     </sounds>
