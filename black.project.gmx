@@ -25,6 +25,7 @@
       <sound>sound\level02_intro_4_sound</sound>
       <sound>sound\level03_intro_sound</sound>
       <sound>sound\level03_end_sound</sound>
+      <sound>sound\level04_intro_1_sound</sound>
       <sound>sound\level04_intro_2_sound</sound>
       <sound>sound\level04_intro_3_sound</sound>
       <sound>sound\level04_end_2_sound</sound>
@@ -35,6 +36,7 @@
       <sound>sound\level01_dialog_sound</sound>
       <sound>sound\level02_dialog_sound</sound>
       <sound>sound\level03_dialog_sound</sound>
+      <sound>sound\level04_dialog_sound</sound>
     </sounds>
     <sounds name="tutorial">
       <sound>sound\tutorial_movement_sound</sound>

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-1</sound>
+            <sound>level04_intro_1_sound</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -79,7 +79,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-1</sound>
+            <sound>level04_intro_1_sound</sound>
           </argument>
         </arguments>
       </action>
@@ -113,7 +113,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'¿Ya estás aquí hijo? ¿Te acordaste de comprar comida para los peces?'</string>
+            <string>'¿Ya estás aquí hijo?¿Te acordaste de comprar la comida de los peces?'</string>
           </argument>
           <argument>
             <kind>0</kind>
