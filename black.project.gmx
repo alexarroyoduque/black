@@ -16,8 +16,8 @@
     <sound>sound\black_dog_barks_sound</sound>
     <sound>sound\city_raining</sound>
     <sounds name="level-transitions">
-      <sound>sound\level02_end_sound</sound>
       <sound>sound\level01_intro_sound</sound>
+      <sound>sound\level02_end_sound</sound>
       <sound>sound\level02_intro_1_sound</sound>
       <sound>sound\level02_intro_2_sound</sound>
       <sound>sound\level02_intro_3_sound</sound>
@@ -223,7 +223,6 @@
       <objects name="tutorial">
         <object>objects\tile_tutorial_obj</object>
         <object>objects\black_tutorial_obj</object>
-        <object>objects\cane_tutorial_obj</object>
         <object>objects\flag_tutorial_obj</object>
         <object>objects\arrow_tutorial_obj</object>
         <object>objects\tutorial_gamepad_manager_obj</object>
@@ -231,6 +230,7 @@
         <object>objects\tutorial_movement_sound_obj</object>
         <object>objects\tutorial_cane_1_sound_obj</object>
         <object>objects\tutorial_cane_2_sound_obj</object>
+        <object>objects\cane_tutorial_obj</object>
         <object>objects\movement_text</object>
         <object>objects\movement_description_text</object>
         <object>objects\cane_text</object>
@@ -238,6 +238,7 @@
         <object>objects\continue_text</object>
         <object>objects\cane_vibration_text</object>
         <object>objects\target_tutorial_text</object>
+        <object>objects\tutorial_cane_manager</object>
       </objects>
       <objects name="records">
         <object>objects\records_gamepad_manager_obj</object>
