@@ -279,7 +279,7 @@
       <object>objects\level_manager_with_dog_obj</object>
       <objects name="level01">
         <object>objects\level01_intro_manager_obj</object>
-        <object>objects\level01_dialog</object>
+        <object>objects\level01_dialog_obj</object>
         <object>objects\level01_end_manager_obj</object>
       </objects>
       <objects name="level02">
@@ -287,7 +287,7 @@
         <object>objects\level02_intro_2_manager_obj</object>
         <object>objects\level02_intro_3_manager_obj</object>
         <object>objects\level02_intro_4_manager_obj</object>
-        <object>objects\level02_dialog</object>
+        <object>objects\level02_dialog_obj</object>
         <object>objects\level02_end_manager_obj</object>
       </objects>
       <objects name="level03">
@@ -299,6 +299,7 @@
         <object>objects\level04_intro_1_manager_obj</object>
         <object>objects\level04_intro_2_manager_obj</object>
         <object>objects\level04_intro_3_manager_obj</object>
+        <object>objects\level04_dialog_obj</object>
         <object>objects\level04_end_1_manager_obj</object>
         <object>objects\level04_end_2_manager_obj</object>
         <object>objects\level04_end_3_manager_obj</object>
