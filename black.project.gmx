@@ -37,6 +37,7 @@
       <sound>sound\level02_dialog_sound</sound>
       <sound>sound\level03_dialog_sound</sound>
       <sound>sound\level04_dialog_sound</sound>
+      <sound>sound\level05_dialog_sound</sound>
     </sounds>
     <sounds name="tutorial">
       <sound>sound\tutorial_movement_sound</sound>
@@ -334,7 +335,6 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\intro</room>
-    <room>rooms\level05</room>
     <room>rooms\intro_tutorial</room>
     <room>rooms\menu_main</room>
     <room>rooms\tutorial_movement</room>
@@ -361,6 +361,7 @@
     <room>rooms\level04_end_2</room>
     <room>rooms\level04_end_3</room>
     <room>rooms\level05_intro_1</room>
+    <room>rooms\level05</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
