@@ -31,6 +31,7 @@
       <sound>sound\level04_end_2_sound</sound>
       <sound>sound\level04_end_3_sound</sound>
       <sound>sound\level05_intro_sound</sound>
+      <sound>sound\level04_end_1_sound</sound>
     </sounds>
     <sounds name="level-dialogs">
       <sound>sound\level01_dialog_sound</sound>
