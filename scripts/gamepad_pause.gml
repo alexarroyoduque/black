@@ -25,6 +25,8 @@ if (global.padIndex != -1) {
         
         if (verticalLeft > +0.8 && verticalRight > +0.8) { // down
             room_goto(menu_main);
+            audio_stop_all();
+            audio_play_sound(main_theme_sound, 1, true);
         }
     }
 
