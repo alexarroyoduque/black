@@ -1,5 +1,43 @@
 # Project Black - changelog
 
+0.0.7 - gameMaker
+
++ desvanecimiento del ladrillo resaltado tras tocar con bastón, evitando que sea permanente
++ Black siempre en el centro de la pantalla
+  + Hacer los mapas de forma que quede espacio a izquierda, derecha, arriba y abajo. Así no hay riesgo de que Black se solape con la interfaz del juego.
++ pantalla tutorial sobre el manejo del bastón dinámica
++ Diálogo con una indicación de dónde está el destino
+  + level02: texto + audio
+  + level03: texto + audio
+  + level04: texto + audio
+  + level05: texto + audio
++ Rehacer niveles para que no sea un camino cerrado
+  + level02
+  + level03
+  + level04
+  + level05
++ doblaje de las transiciones de nivel(pendiente)
+  + level01_intro - black
+  + level01_end - green
+  + level02_intro_1 - black
+  + level02_intro_2 - black
+  + level02_intro_3 - black
+  + level02_intro_4 - black
+  + level02_end - violet
+  + level03_intro - black
+  + level03_end - black
+  + level04_intro_1 - orange
+  + level04_intro_2 - black
+  + level04_intro_3 - black
+  + level04_end_1 - cyan
+  + level04_end_2 - blue
+  + level04_end_3 - black
+  + level05_intro - black
++ doblaje del tutorial
+  + movimiento
+  + bastón
+
+
 ## 0.0.6 - gameMaker
 + Cuando Black recibe un impacto colorear en rojo el borde de la pantalla que indica la dirección en la que ha golpeado en lugar de toda la pantalla en rojo
   + diseño en cada dirección
